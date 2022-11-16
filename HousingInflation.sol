@@ -61,7 +61,25 @@
             return (estate.name, estate.owner, estate.initialPrice, estate.currentPrice, estate.metadataURI, estate.status, estate.creationDate, estate.location);
         }
 
+        mapping(uint256 => Estate) public estatesForSale;
+    
+        function listForSale(uint256 _estateId, uint256 _price, bool _followInflation) public {
+            Estate memory estate = estates[_estateId];
+            require(estate.owner == msg.sender, "You are not the owner of this estate");
+            require(estate.status == "OFF", "Estate is already listed");
+            if(_followInflation) {
+                estate.currentPrice = estate.currentPrice * (1 + (stringToUint(yoyInflation()) / 100));
+            } else {
+                estate.currentPrice = _price;
+            }
+            estate.status = "SALE";
+            estates[_estateId] = estate;
+            estatesForSale[_estateId] = estate;
+            emit EstateListedForSale(_estateId, _price);
+        }
+
         // emit events
         event EstateCreated(string name, address owner, uint256 initialPrice, string metadataURI, string status, uint256 creationDate, string location);
         event UserCreated(address wallet);
+        event EstateListedForSale(uint256 estateId, uint256 price);
     }
