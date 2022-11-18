@@ -23,6 +23,10 @@ contract HouseInflation {
         uint8 status; // SALE = 1, SOLD = 2, RENT = 3, RENTED = 4, OFF = 5
         uint256 creationDate; // TS in secs
         string location; // address str
+        uint256 rentPrice; // Price in USD for entire rentDuration
+        uint256 rentDuration; // Duration in days
+        address renter; // Address of renter
+        uint256 rentEnds; // TS in secs
     }
     uint256 public estateCount = 0;
     mapping(uint256 => Estate) public estates;
@@ -43,7 +47,11 @@ contract HouseInflation {
             _metadataURI,
             0,
             ts,
-            _location
+            _location,
+            0,
+            0,
+            address(0),
+            0
         );
         ownerEstates[msg.sender].push(estates[estateCount]);
         estateCount++;
@@ -54,7 +62,11 @@ contract HouseInflation {
             _metadataURI,
             0,
             ts,
-            _location
+            _location,
+            0,
+            0,
+            address(0),
+            0
         );
     }
 
@@ -116,8 +128,79 @@ contract HouseInflation {
         if (estatesForSale[_estateId].owner == address(0)) {
             estatesForSaleCount++;
         }
+        ownerEstates[estate.owner][_estateId].status = 1;
         estatesForSale[_estateId] = estate;
         emit EstateListedForSale(_estateId, _price);
+    }
+
+    // list of estatesForRent & quantity of estatesForRent
+    uint256 public estatesForRentCount = 0;
+    mapping(uint256 => Estate) public estatesForRent;
+
+    function listForRent(
+        uint256 _estateId,
+        uint256 _price,
+        uint256 _duration
+    ) public {
+        Estate memory estate = estates[_estateId];
+        require(
+            estate.owner == msg.sender,
+            "You are not the owner of this estate"
+        );
+        require(estate.status == 0, "Estate is already listed");
+        estate.status = 3;
+        estate.rentPrice = _price;
+        estate.rentDuration = _duration;
+        estates[_estateId] = estate;
+
+        if (estatesForRent[_estateId].owner == address(0)) {
+            estatesForRentCount++;
+        }
+        ownerEstates[estate.owner][_estateId].status = 3;
+        estatesForRent[_estateId] = estate;
+        emit EstateListedForRent(_estateId, _price, _duration);
+    }
+
+    // rent an estate
+    function rentEstate(uint256 _estateId) public payable {
+        Estate memory estate = estates[_estateId];
+        require(estate.status == 3, "Estate is not listed for rent");
+        require(
+            msg.value == estate.rentPrice,
+            "You must pay the exact rent price"
+        );
+        require(
+            estate.renter == address(0),
+            "Estate is already rented by someone"
+        );
+        require(
+            estate.owner != msg.sender,
+            "You are the owner of this estate"
+        );
+        payable(estate.owner).transfer(msg.value);
+        estate.status = 4;
+        estate.renter = msg.sender;
+        estate.rentEnds = block.timestamp + (estate.rentDuration * 1 days); // after rentDuration days
+        estates[_estateId] = estate;
+        estatesForRent[_estateId] = estate;
+        ownerEstates[estate.owner][_estateId] = estate;
+        emit EstateRented(_estateId, msg.sender);
+    }
+
+    function concludeRent(uint256 _estateId) public {
+        Estate memory estate = estates[_estateId];
+        require(estate.status == 4, "Estate is not rented");
+        require(
+            estate.rentEnds < block.timestamp,
+            "Rent duration has not ended yet"
+        );
+        estate.status = 0;
+        estate.renter = address(0);
+        estate.rentEnds = 0;
+        estates[_estateId] = estate;
+        estatesForRent[_estateId] = estate;
+        ownerEstates[estate.owner][_estateId] = estate;
+        emit EstateRentConcluded(_estateId);
     }
 
     // check if everything is ok, then transfer ownership, and add to ownerEstates
@@ -128,6 +211,7 @@ contract HouseInflation {
             msg.value == estate.currentPrice,
             "You are not paying the correct amount"
         );
+        require(estate.owner != msg.sender, "You are the owner of this estate");
         payable(estate.owner).transfer(msg.value);
 
         // change owner of ownerEstates of estate.owner to msg.sender
@@ -152,8 +236,15 @@ contract HouseInflation {
         string metadataURI,
         uint8 status,
         uint256 creationDate,
-        string location
+        string location,
+        uint256 rentPrice,
+        uint256 rentDuration,
+        address renter,
+        uint256 rentEnds
     );
     event EstateListedForSale(uint256 estateId, uint256 price);
     event EstatePurchased(uint256 estateId, address buyer);
+    event EstateListedForRent(uint256 estateId, uint256 price, uint256 duration);
+    event EstateRented(uint256 estateId, address renter);
+    event EstateRentConcluded(uint256 estateId);
 }
