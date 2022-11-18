@@ -34,10 +34,6 @@ contract HouseInflation {
         string memory _metadataURI,
         string memory _location
     ) public {
-        if (userByAddress[msg.sender].wallet == address(0)) {
-            createUser(msg.sender);
-            emit UserCreated(msg.sender);
-        }
         uint256 ts = block.timestamp;
         estates[estateCount] = Estate(
             _name,
@@ -60,23 +56,6 @@ contract HouseInflation {
             ts,
             _location
         );
-    }
-
-    struct User {
-        address wallet;
-    }
-    uint256 public userCount = 0;
-    mapping(uint256 => User) public users;
-    mapping(address => User) public userByAddress;
-
-    function createUser(address _wallet) private {
-        require(
-            userByAddress[_wallet].wallet == address(0),
-            "User already exists"
-        );
-        users[userCount] = User(_wallet);
-        userByAddress[_wallet] = users[userCount];
-        userCount++;
     }
 
     function getOwnerEstateCount(address _owner) public view returns (uint256) {
@@ -110,6 +89,8 @@ contract HouseInflation {
         );
     }
 
+    // quantity of estatesForSale
+    uint256 public estatesForSaleCount = 0;
     mapping(uint256 => Estate) public estatesForSale;
 
     function listForSale(
@@ -131,9 +112,37 @@ contract HouseInflation {
         }
         estate.status = 1;
         estates[_estateId] = estate;
+
+        if (estatesForSale[_estateId].owner == address(0)) {
+            estatesForSaleCount++;
+        }
         estatesForSale[_estateId] = estate;
         emit EstateListedForSale(_estateId, _price);
     }
+
+    // check if everything is ok, then transfer ownership, and add to ownerEstates
+    function purchase(uint256 _estateId) public payable {
+        Estate memory estate = estatesForSale[_estateId];
+        require(estate.status == 1, "Estate is not for sale");
+        require(
+            msg.value == estate.currentPrice,
+            "You are not paying the correct amount"
+        );
+        payable(estate.owner).transfer(msg.value);
+
+        // change owner of ownerEstates of estate.owner to msg.sender
+        // this way we can still list the estate as a 'sold' by querying ownerEstates ;p
+        ownerEstates[estate.owner][_estateId].owner = msg.sender;
+        ownerEstates[estate.owner][_estateId].status = 2;
+
+        estate.owner = msg.sender;
+        estate.status = 0; // reset statu to off (for the next user)
+        estates[_estateId] = estate;
+        estatesForSale[_estateId].status = 2;
+        ownerEstates[msg.sender].push(estate);
+        emit EstatePurchased(_estateId, msg.sender);
+    }
+
 
     // emit events
     event EstateCreated(
@@ -145,6 +154,6 @@ contract HouseInflation {
         uint256 creationDate,
         string location
     );
-    event UserCreated(address wallet);
     event EstateListedForSale(uint256 estateId, uint256 price);
+    event EstatePurchased(uint256 estateId, address buyer);
 }
