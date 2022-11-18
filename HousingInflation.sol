@@ -19,7 +19,7 @@
             uint256 initialPrice; // Price in USD at time of creation
             uint256 currentPrice;
             string metadataURI; // OPTIONAL
-            string status; // SALE, SOLD, RENT, RENTED, OFF
+            uint8 status; // SALE = 1, SOLD = 2, RENT = 3, RENTED = 4, OFF = 5
             uint256 creationDate; // TS in secs
             string location; // address str
         }
@@ -33,10 +33,10 @@
                 emit UserCreated(msg.sender);
             }
             uint256 ts = block.timestamp;
-            estates[estateCount] = Estate(_name, msg.sender, _initialPrice, _initialPrice, _metadataURI, "OFF", ts, _location);
+            estates[estateCount] = Estate(_name, msg.sender, _initialPrice, _initialPrice, _metadataURI, 0, ts, _location);
             ownerEstates[msg.sender].push(estates[estateCount]);
             estateCount++;
-            emit EstateCreated(_name, msg.sender, _initialPrice, _metadataURI, "OFF", ts, _location);
+            emit EstateCreated(_name, msg.sender, _initialPrice, _metadataURI, 0, ts, _location);
         }
         struct User {
             address wallet;
@@ -45,7 +45,7 @@
         mapping(uint256 => User) public users;
         mapping(address => User) public userByAddress;
 
-        function createUser(address _wallet) public {
+        function createUser(address _wallet) private {
             require(userByAddress[_wallet].wallet == address(0), "User already exists");
             users[userCount] = User(_wallet);
             userByAddress[_wallet] = users[userCount];
@@ -56,7 +56,7 @@
             return ownerEstates[_owner].length;
         }
 
-        function getOwnerEstateByIndex(address _owner, uint256 _index) public view returns (string memory, address, uint256, uint256, string memory, string memory, uint256, string memory) {
+        function getOwnerEstateByIndex(address _owner, uint256 _index) public view returns (string memory, address, uint256, uint256, string memory, uint8, uint256, string memory) {
             Estate memory estate = ownerEstates[_owner][_index];
             return (estate.name, estate.owner, estate.initialPrice, estate.currentPrice, estate.metadataURI, estate.status, estate.creationDate, estate.location);
         }
@@ -66,20 +66,21 @@
         function listForSale(uint256 _estateId, uint256 _price, bool _followInflation) public {
             Estate memory estate = estates[_estateId];
             require(estate.owner == msg.sender, "You are not the owner of this estate");
-            require(estate.status == "OFF", "Estate is already listed");
+            require(estate.status == 0, "Estate is already listed");
             if(_followInflation) {
-                estate.currentPrice = estate.currentPrice * (1 + (stringToUint(yoyInflation()) / 100));
+                // inflation is 8% per year
+                estate.currentPrice = estate.initialPrice * 108 / 100;
             } else {
                 estate.currentPrice = _price;
             }
-            estate.status = "SALE";
+            estate.status = 1;
             estates[_estateId] = estate;
             estatesForSale[_estateId] = estate;
             emit EstateListedForSale(_estateId, _price);
         }
 
         // emit events
-        event EstateCreated(string name, address owner, uint256 initialPrice, string metadataURI, string status, uint256 creationDate, string location);
+        event EstateCreated(string name, address owner, uint256 initialPrice, string metadataURI, uint8 status, uint256 creationDate, string location);
         event UserCreated(address wallet);
         event EstateListedForSale(uint256 estateId, uint256 price);
     }
