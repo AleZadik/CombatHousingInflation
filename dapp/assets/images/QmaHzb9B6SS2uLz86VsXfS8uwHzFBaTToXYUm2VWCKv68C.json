@@ -1,0 +1,5197 @@
+{
+  "date": "2022-11-16",
+  "yearAgoDate": "2021-11-16",
+  "currentInflationIndex": 145.69512100207265,
+  "yearAgoInflationIndex": 132.78042942783458,
+  "yearOverYearInflation": 7.333500057044455,
+  "derivations": {
+    "current": {
+      "0": {
+        "source_id": 161.85243034208074,
+        "source_name": "Cereals and bakery products CPI",
+        "inflationIndex": 131.5278150246155,
+        "relativeImportance": 0.3282774125301949,
+        "adjustedInflationIndex": 43.37003307181566,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 253.55537123879316
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 352.62080883432435
+        },
+        "elementDerivations": {}
+      },
+      "1": {
+        "source_id": 163.8380799574811,
+        "source_name": "Meats, poultry, fish and eggs CPI",
+        "inflationIndex": 156.79522479223024,
+        "relativeImportance": 0.5519402659278055,
+        "adjustedInflationIndex": 85.09389912411172,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 197.8454746746998
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 330.8038608726366
+        },
+        "elementDerivations": {}
+      },
+      "2": {
+        "source_id": 162.59387625750657,
+        "source_name": "Dairy products CPI",
+        "inflationIndex": 131.45960995328173,
+        "relativeImportance": 0.2391081506477001,
+        "adjustedInflationIndex": 32.21820359955508,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 198.11006262853087
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 257.0763506969496
+        },
+        "elementDerivations": {}
+      },
+      "3": {
+        "source_id": 174.77356227966575,
+        "source_name": "Fruits and vegetables CPI",
+        "inflationIndex": 121.56291441672687,
+        "relativeImportance": 0.5166996619249467,
+        "adjustedInflationIndex": 61.47052150578289,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 332.1203112177514
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 383.72315609855275
+        },
+        "elementDerivations": {}
+      },
+      "4": {
+        "source_id": 177.10462646893453,
+        "source_name": "Other food at home CPI",
+        "inflationIndex": 131.59655677815377,
+        "relativeImportance": 0.6029228128427689,
+        "adjustedInflationIndex": 86.06292057461822,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 184.21017069188878
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 273.1466465975406
+        },
+        "elementDerivations": {}
+      },
+      "5": {
+        "source_id": 177.75003405092713,
+        "source_name": "Cereals and bakery products NielsenIQ",
+        "inflationIndex": 134.2945713466534,
+        "relativeImportance": 0.6693174840883253,
+        "adjustedInflationIndex": 88.85287544698957,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 242.004364768924
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 337.30624195528276
+        },
+        "elementDerivations": {}
+      },
+      "6": {
+        "source_id": 168.66823684732108,
+        "source_name": "Meats, poultry, fish and eggs NielsenIQ",
+        "inflationIndex": 175.09619402943147,
+        "relativeImportance": 1.0768638750242956,
+        "adjustedInflationIndex": 180.40087896166352,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 198.25155618196325
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 331.6120167061314
+        },
+        "elementDerivations": {}
+      },
+      "7": {
+        "source_id": 179.21393090685407,
+        "source_name": "Dairy products NielsenIQ",
+        "inflationIndex": 136.8832317307699,
+        "relativeImportance": 0.5098145013824915,
+        "adjustedInflationIndex": 69.09162381861017,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 201.2073278580882
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 286.28020924629163
+        },
+        "elementDerivations": {}
+      },
+      "8": {
+        "source_id": 182.48951072572163,
+        "source_name": "Fruits and vegetables NielsenIQ",
+        "inflationIndex": 140.96418731282154,
+        "relativeImportance": 1.071779217395936,
+        "adjustedInflationIndex": 132.6146575790743,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 310.7754511315352
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 440.7088586002756
+        },
+        "elementDerivations": {}
+      },
+      "9": {
+        "source_id": 175.44524705625594,
+        "source_name": "Other food at home NielsenIQ",
+        "inflationIndex": 135.4775255456926,
+        "relativeImportance": 1.319454190193111,
+        "adjustedInflationIndex": 176.73084740013513,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 187.81750725746772
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 267.9455227416596
+        },
+        "elementDerivations": {}
+      },
+      "10": {
+        "source_id": 184.90415978940553,
+        "source_name": "Food YF",
+        "inflationIndex": 128.69066429157775,
+        "relativeImportance": 1.6764153239617008,
+        "adjustedInflationIndex": 206.58270106041144,
+        "elementDerivations": {
+          "0": {
+            "element_id": 158.88719462821496,
+            "element_name": "Corn YF",
+            "inflationIndex": 155.58864228356413,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 412.6908832825393
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 653.2380923579522
+            }
+          },
+          "1": {
+            "element_id": 161.23859030669576,
+            "element_name": "Wheat YF",
+            "inflationIndex": 140.92472533905598,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 562.570637999805
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 797.4787691572294
+            }
+          },
+          "2": {
+            "element_id": 158.75532095862536,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 141.44795938878246,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1004.1911442911788
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1420.9215560688838
+            }
+          },
+          "3": {
+            "element_id": 158.46343005622595,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 130.17191252927512,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 323.2925029727629
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 418.00286842655055
+            }
+          },
+          "4": {
+            "element_id": 169.85529986065504,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 182.41022345132387,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 41.1475788241011
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 78.94219481870263
+            }
+          },
+          "5": {
+            "element_id": 162.33383773376377,
+            "element_name": "Coffee YF",
+            "inflationIndex": 119.49473196851758,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 137.6901329318322
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 172.51813438932896
+            }
+          },
+          "6": {
+            "element_id": 162.0817104264565,
+            "element_name": "Sugar YF",
+            "inflationIndex": 71.80698647197659,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 28.385090405317115
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 20.3609649228067
+            }
+          },
+          "7": {
+            "element_id": 173.0391699590328,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 76.7738819452382,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3297.7595289652118
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2500.731768276659
+            }
+          },
+          "8": {
+            "element_id": 167.92673347664217,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 182.81846797640858,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 85.29133507594817
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 145.62219853749184
+            }
+          },
+          "9": {
+            "element_id": 160.54159081042238,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 124.55340651086625,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 62.674968835370294
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 87.20158188108617
+            }
+          }
+        }
+      },
+      "11": {
+        "source_id": 170.9271746077035,
+        "source_name": "Food YF",
+        "inflationIndex": 126.64623469075411,
+        "relativeImportance": 0.32719005481941627,
+        "adjustedInflationIndex": 43.909304974332244,
+        "elementDerivations": {
+          "0": {
+            "element_id": 156.6698390574993,
+            "element_name": "Corn YF",
+            "inflationIndex": 158.24598773163754,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 425.17544091211903
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 639.7215232569841
+            }
+          },
+          "1": {
+            "element_id": 162.06590763041987,
+            "element_name": "Wheat YF",
+            "inflationIndex": 141.90475996652722,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 544.9101253545188
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 797.6664986486875
+            }
+          },
+          "2": {
+            "element_id": 158.959986501667,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 134.0156907692212,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1014.9497741467268
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1503.5410503590626
+            }
+          },
+          "3": {
+            "element_id": 167.34523415621385,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 128.97908441979925,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 322.53708250539876
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 406.22988829195964
+            }
+          },
+          "4": {
+            "element_id": 162.4810929532246,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 188.2557136581114,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 39.8292232788486
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 73.55530844514058
+            }
+          },
+          "5": {
+            "element_id": 169.96868516873784,
+            "element_name": "Coffee YF",
+            "inflationIndex": 119.83592125907194,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 148.8847756121916
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 175.531598963573
+            }
+          },
+          "6": {
+            "element_id": 164.62714241347217,
+            "element_name": "Sugar YF",
+            "inflationIndex": 71.70593415066308,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.00726315485235
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 20.6081283093841
+            }
+          },
+          "7": {
+            "element_id": 161.9480436513751,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 77.4579997431021,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3379.045685154223
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2623.240790385089
+            }
+          },
+          "8": {
+            "element_id": 157.93715629290415,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 179.80971135082024,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 89.23291749600753
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 156.1127988295065
+            }
+          },
+          "9": {
+            "element_id": 161.20732784733931,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 134.00191607180102,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 66.15390410535558
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 84.97884601997052
+            }
+          }
+        }
+      },
+      "12": {
+        "source_id": 186.21016404692207,
+        "source_name": "Food YF",
+        "inflationIndex": 125.95415699856719,
+        "relativeImportance": 0.9541541704403481,
+        "adjustedInflationIndex": 115.65997610001335,
+        "elementDerivations": {
+          "0": {
+            "element_id": 159.73600257082234,
+            "element_name": "Corn YF",
+            "inflationIndex": 159.94341903127653,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 399.8038161503323
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 672.8716290051394
+            }
+          },
+          "1": {
+            "element_id": 154.82772110562476,
+            "element_name": "Wheat YF",
+            "inflationIndex": 149.67320105909545,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 577.3457000575523
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 819.8853984353232
+            }
+          },
+          "2": {
+            "element_id": 157.96471993495632,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 143.58212076539968,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1078.9405733116498
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1464.2805257672949
+            }
+          },
+          "3": {
+            "element_id": 160.7532168763016,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 124.05340576241832,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 301.62958318437495
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 409.15243299026935
+            }
+          },
+          "4": {
+            "element_id": 165.91357344148392,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 187.85412521979245,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 40.16589849429377
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 78.10387264760247
+            }
+          },
+          "5": {
+            "element_id": 161.17584310529816,
+            "element_name": "Coffee YF",
+            "inflationIndex": 117.03158920760546,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 148.5608260986446
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 172.37622269264872
+            }
+          },
+          "6": {
+            "element_id": 165.14992224982768,
+            "element_name": "Sugar YF",
+            "inflationIndex": 73.3189153150795,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 28.94156191973423
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 18.685419726216505
+            }
+          },
+          "7": {
+            "element_id": 160.42394369068862,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 78.90373473253389,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3267.685739984365
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2452.9117841502984
+            }
+          },
+          "8": {
+            "element_id": 161.25360630443512,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 183.3136491854902,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 82.02953484598159
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 144.3844188488271
+            }
+          },
+          "9": {
+            "element_id": 175.02527922773479,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 125.5005236526758,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 68.74229735503278
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 88.18531469920623
+            }
+          }
+        }
+      },
+      "13": {
+        "source_id": 175.67360454803958,
+        "source_name": "Food YF",
+        "inflationIndex": 126.1859878287349,
+        "relativeImportance": 0.5346338249306224,
+        "adjustedInflationIndex": 66.63900687625112,
+        "elementDerivations": {
+          "0": {
+            "element_id": 154.95326027285543,
+            "element_name": "Corn YF",
+            "inflationIndex": 149.6246250444676,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 431.15203492947313
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 690.4176209939225
+            }
+          },
+          "1": {
+            "element_id": 166.8529632014252,
+            "element_name": "Wheat YF",
+            "inflationIndex": 147.73467406400462,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 542.2501777925139
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 802.2850252526393
+            }
+          },
+          "2": {
+            "element_id": 164.25498705454285,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 136.47821543413014,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1075.5168829192592
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1442.7065392922455
+            }
+          },
+          "3": {
+            "element_id": 161.71756952675634,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 133.85106944214388,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 316.01661221517435
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 402.14039460062463
+            }
+          },
+          "4": {
+            "element_id": 158.72616587583323,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 185.91452425778814,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 41.27121067512623
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 80.34109800122165
+            }
+          },
+          "5": {
+            "element_id": 165.0286646192269,
+            "element_name": "Coffee YF",
+            "inflationIndex": 122.29821919046572,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 137.83776239551582
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 163.68178694041853
+            }
+          },
+          "6": {
+            "element_id": 159.8729855416651,
+            "element_name": "Sugar YF",
+            "inflationIndex": 71.22783846583354,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 28.724573197162293
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 20.21702201680046
+            }
+          },
+          "7": {
+            "element_id": 171.7246351477835,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 76.33345313733928,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3130.204725799386
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2514.7226298415435
+            }
+          },
+          "8": {
+            "element_id": 162.26131322380485,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 176.24776521548867,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 88.30716934465504
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 150.66342103771626
+            }
+          },
+          "9": {
+            "element_id": 159.60045468360124,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 127.55507692052159,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 65.22380867801019
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 86.91595189267953
+            }
+          }
+        }
+      },
+      "14": {
+        "source_id": 185.7336715736313,
+        "source_name": "Food YF",
+        "inflationIndex": 133.67693946399166,
+        "relativeImportance": 0.23818679892421357,
+        "adjustedInflationIndex": 31.906309633094054,
+        "elementDerivations": {
+          "0": {
+            "element_id": 160.78265550851592,
+            "element_name": "Corn YF",
+            "inflationIndex": 158.2535326079167,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 398.29769445046816
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 667.1509981872316
+            }
+          },
+          "1": {
+            "element_id": 164.73596129192754,
+            "element_name": "Wheat YF",
+            "inflationIndex": 149.54882129414244,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 530.7476484906422
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 798.5034914654782
+            }
+          },
+          "2": {
+            "element_id": 166.39285282539953,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 143.75900473296878,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1100.1867474757444
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1481.3378425837798
+            }
+          },
+          "3": {
+            "element_id": 168.2253813059727,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 129.03901588390278,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 326.7383906521687
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 411.2805705701351
+            }
+          },
+          "4": {
+            "element_id": 162.1964789397482,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 180.56187715704863,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 40.54909385002037
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 74.34820317278881
+            }
+          },
+          "5": {
+            "element_id": 159.30021292614708,
+            "element_name": "Coffee YF",
+            "inflationIndex": 115.16029243773734,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 143.14751684957858
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 175.63271891030413
+            }
+          },
+          "6": {
+            "element_id": 161.9433609224127,
+            "element_name": "Sugar YF",
+            "inflationIndex": 68.86349784410824,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.680988415250486
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 18.697525609688924
+            }
+          },
+          "7": {
+            "element_id": 162.69206329871963,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 75.79151907332671,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3235.197945404154
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2489.272686067172
+            }
+          },
+          "8": {
+            "element_id": 169.33967424043374,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 179.52109603253658,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 88.7469040127358
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 157.69169827299686
+            }
+          },
+          "9": {
+            "element_id": 172.95043855440736,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 130.99169483459693,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 68.70132327697794
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 84.54445982009472
+            }
+          }
+        }
+      },
+      "15": {
+        "source_id": 185.018888902521,
+        "source_name": "Food YF",
+        "inflationIndex": 130.26411249712623,
+        "relativeImportance": 0.5392635374668946,
+        "adjustedInflationIndex": 69.85685804536998,
+        "elementDerivations": {
+          "0": {
+            "element_id": 157.0045653560651,
+            "element_name": "Corn YF",
+            "inflationIndex": 161.65175078944264,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 411.4439665656855
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 637.7619633453216
+            }
+          },
+          "1": {
+            "element_id": 157.42958699401126,
+            "element_name": "Wheat YF",
+            "inflationIndex": 150.50277410977293,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 570.1415185703031
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 775.7195327172789
+            }
+          },
+          "2": {
+            "element_id": 158.39974944941847,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 136.1429492943454,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 998.2765294332781
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 1436.7825136023337
+            }
+          },
+          "3": {
+            "element_id": 166.9321311586025,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 131.66629287021573,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 300.8437804539329
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 404.4803058096909
+            }
+          },
+          "4": {
+            "element_id": 158.93351891929387,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 191.62861280418196,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 40.73824100082197
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 76.11843202066687
+            }
+          },
+          "5": {
+            "element_id": 165.92210484134046,
+            "element_name": "Coffee YF",
+            "inflationIndex": 120.48459064277745,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 144.48284914534074
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 168.99666936154034
+            }
+          },
+          "6": {
+            "element_id": 161.5023300478714,
+            "element_name": "Sugar YF",
+            "inflationIndex": 70.70120066505348,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 28.23618478981222
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 19.17552556923941
+            }
+          },
+          "7": {
+            "element_id": 159.38623104037535,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 77.293856909991,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3291.25202203829
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 2580.9534551587185
+            }
+          },
+          "8": {
+            "element_id": 162.82469530463692,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 183.88626825482058,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 82.20762847968278
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 148.80507116251945
+            }
+          },
+          "9": {
+            "element_id": 164.75917728479223,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 123.65326359058784,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 64.52777650704539
+            },
+            "latest": {
+              "dateTarget": "2022-11-11",
+              "dateFound": "2022-11-11",
+              "value": 80.76450701901186
+            }
+          }
+        }
+      },
+      "16": {
+        "source_id": 185.08872239038894,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3153",
+        "inflationIndex": 105.16963546585377,
+        "relativeImportance": 0.8803248543437963,
+        "adjustedInflationIndex": 88.32386055586352,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 120.8768534736754
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 128.44578013844503
+        },
+        "elementDerivations": {}
+      },
+      "17": {
+        "source_id": 187.60580951484047,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3154",
+        "inflationIndex": 82.00695143098133,
+        "relativeImportance": 0.03922461940496969,
+        "adjustedInflationIndex": 3.3486572488372794,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 69.68967205134078
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 59.40349121219952
+        },
+        "elementDerivations": {}
+      },
+      "18": {
+        "source_id": 186.9442513343222,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3155",
+        "inflationIndex": 130.00413431452864,
+        "relativeImportance": 0.1647742488036144,
+        "adjustedInflationIndex": 20.57240520483439,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 231.42140602753798
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 277.24149322962444
+        },
+        "elementDerivations": {}
+      },
+      "19": {
+        "source_id": 180.88636067679337,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3263",
+        "inflationIndex": 119.06695995187698,
+        "relativeImportance": 0.05746934575620202,
+        "adjustedInflationIndex": 7.121736317142674,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 106.86346625679803
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 137.5239522028377
+        },
+        "elementDerivations": {}
+      },
+      "20": {
+        "source_id": 187.47730331317857,
+        "source_name": "Food away from home CPI",
+        "inflationIndex": 155.47881858803666,
+        "relativeImportance": 1.634266889137042,
+        "adjustedInflationIndex": 259.72200100675093,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 229.35516341068723
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 342.75877901843796
+        },
+        "elementDerivations": {}
+      },
+      "21": {
+        "source_id": 182.39461610693158,
+        "source_name": "Food away from home BigMac",
+        "inflationIndex": 140.12310957878046,
+        "relativeImportance": 1.5896789036311454,
+        "adjustedInflationIndex": 230.26165048368335,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 3.459182395728404
+        },
+        "latest": {
+          "dateTarget": "2022-07-01",
+          "dateFound": "2022-07-01",
+          "value": 5.119808099914708
+        },
+        "elementDerivations": {}
+      },
+      "22": {
+        "source_id": 179.9727542587039,
+        "source_name": "ACY index",
+        "inflationIndex": 192.23230049082125,
+        "relativeImportance": 3.8964300259144293,
+        "adjustedInflationIndex": 765.4021264261612,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 93.99947877792512
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 184.41138214818233
+        },
+        "elementDerivations": {}
+      },
+      "23": {
+        "source_id": 183.15029694096916,
+        "source_name": "ACY index",
+        "inflationIndex": 184.34840398399203,
+        "relativeImportance": 3.8543745798009725,
+        "adjustedInflationIndex": 702.9027346760157,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.87395762837413
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 174.39485952376972
+        },
+        "elementDerivations": {}
+      },
+      "24": {
+        "source_id": 175.96507420348962,
+        "source_name": "ACY index",
+        "inflationIndex": 187.20970521591488,
+        "relativeImportance": 4.418825161832799,
+        "adjustedInflationIndex": 782.7853673869836,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 94.03153993358498
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 183.34246686478951
+        },
+        "elementDerivations": {}
+      },
+      "25": {
+        "source_id": 191.00655824227286,
+        "source_name": "ACY index",
+        "inflationIndex": 177.15328152764985,
+        "relativeImportance": 5.486059261835233,
+        "adjustedInflationIndex": 1008.4762836893808,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 93.06357698702465
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 172.0330757106765
+        },
+        "elementDerivations": {}
+      },
+      "26": {
+        "source_id": 191.1998104813903,
+        "source_name": "Rented dwellings Zillow",
+        "inflationIndex": 191.10011755646437,
+        "relativeImportance": 3.8965214544244846,
+        "adjustedInflationIndex": 771.3165755189641,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 91.27052630478215
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 165.3863431415544
+        },
+        "elementDerivations": {}
+      },
+      "27": {
+        "source_id": 188.79207369442287,
+        "source_name": "Other lodging CPI",
+        "inflationIndex": 146.0389799282487,
+        "relativeImportance": 1.2927526690858886,
+        "adjustedInflationIndex": 195.6811948516151,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 127.48258558249573
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 184.8172196258656
+        },
+        "elementDerivations": {}
+      },
+      "28": {
+        "source_id": 189.3656373851484,
+        "source_name": "Cars and Trucks, new KBB",
+        "inflationIndex": 130.14437087875135,
+        "relativeImportance": 2.1561171136117863,
+        "adjustedInflationIndex": 288.3610600956745,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 35168.976088448006
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 48038.81450516473
+        },
+        "elementDerivations": {}
+      },
+      "29": {
+        "source_id": 189.28442533865686,
+        "source_name": "Cars and Trucks, new CPI",
+        "inflationIndex": 126.7855801159105,
+        "relativeImportance": 2.066507035240974,
+        "adjustedInflationIndex": 254.85075163874677,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 135.783216669122
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 171.69466149534483
+        },
+        "elementDerivations": {}
+      },
+      "30": {
+        "source_id": 187.7113365815126,
+        "source_name": "Cars and Trucks, used CarGurus",
+        "inflationIndex": 151.65117839587631,
+        "relativeImportance": 1.6089589641493753,
+        "adjustedInflationIndex": 242.29084792187484,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 19032.24492598839
+        },
+        "latest": {
+          "dateTarget": "2022-11-13",
+          "dateFound": "2022-11-13",
+          "value": 30546.480506287946
+        },
+        "elementDerivations": {}
+      },
+      "31": {
+        "source_id": 194.246736196995,
+        "source_name": "Cars and Trucks, used UVVI",
+        "inflationIndex": 170.88644125927425,
+        "relativeImportance": 1.625085187916963,
+        "adjustedInflationIndex": 257.98921290560475,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 117.32750793572983
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 204.04464381417176
+        },
+        "elementDerivations": {}
+      },
+      "32": {
+        "source_id": 199.07503975354393,
+        "source_name": "Cars and Trucks, used JDPower",
+        "inflationIndex": 207.67090043491467,
+        "relativeImportance": 1.6538386959916251,
+        "adjustedInflationIndex": 316.31002734536565,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.53550595035794
+        },
+        "latest": {
+          "dateTarget": "2022-09-01",
+          "dateFound": "2022-09-01",
+          "value": 198.35147451804863
+        },
+        "elementDerivations": {}
+      },
+      "33": {
+        "source_id": 199.96886995606806,
+        "source_name": "Other vehicles CPI",
+        "inflationIndex": 125.15496257036348,
+        "relativeImportance": 0.1502778985431007,
+        "adjustedInflationIndex": 19.9564434907794,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 143.77118151542848
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 169.9223616015893
+        },
+        "elementDerivations": {}
+      },
+      "34": {
+        "source_id": 186.32737713238967,
+        "source_name": "Gasoline (all types) AAA",
+        "inflationIndex": 146.5481830555764,
+        "relativeImportance": 1.4912841912310908,
+        "adjustedInflationIndex": 215.5818912263372,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 98.91741063969522
+        },
+        "latest": {
+          "dateTarget": "2022-11-14",
+          "dateFound": "2022-11-14",
+          "value": 137.29441274180675
+        },
+        "elementDerivations": {}
+      },
+      "35": {
+        "source_id": 190.73911494660194,
+        "source_name": "Gasoline (all types) EIA",
+        "inflationIndex": 153.87984652420084,
+        "relativeImportance": 1.6252290178066928,
+        "adjustedInflationIndex": 226.00372624879964,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 2.761129061818418
+        },
+        "latest": {
+          "dateTarget": "2022-11-07",
+          "dateFound": "2022-11-07",
+          "value": 4.070416687584332
+        },
+        "elementDerivations": {}
+      },
+      "36": {
+        "source_id": 203.5563547916643,
+        "source_name": "Other fuels and motor oil AAA",
+        "inflationIndex": 179.67749580269927,
+        "relativeImportance": 0.0328015786720098,
+        "adjustedInflationIndex": 6.435179154337758,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 215.55341106345324
+        },
+        "latest": {
+          "dateTarget": "2022-11-14",
+          "dateFound": "2022-11-14",
+          "value": 411.3875739264203
+        },
+        "elementDerivations": {}
+      },
+      "37": {
+        "source_id": 188.7832157728816,
+        "source_name": "Other fuels and motor oil CPI",
+        "inflationIndex": 185.74518166449866,
+        "relativeImportance": 0.03210610742776674,
+        "adjustedInflationIndex": 6.0506665602045615,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 204.61004824626173
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 396.7428877502634
+        },
+        "elementDerivations": {}
+      },
+      "38": {
+        "source_id": 191.03148012546504,
+        "source_name": "Vehicle finance charges CPI",
+        "inflationIndex": 111.48811156759054,
+        "relativeImportance": 0.5079164724047431,
+        "adjustedInflationIndex": 56.628777960632156,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 98.43006754138545
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 115.7692553538973
+        },
+        "elementDerivations": {}
+      },
+      "39": {
+        "source_id": 201.82490762234994,
+        "source_name": "Maintenance and repairs CPI",
+        "inflationIndex": 149.98444142391153,
+        "relativeImportance": 1.7989003238021306,
+        "adjustedInflationIndex": 252.10420322008454,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 249.38925448971585
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 345.8133566759358
+        },
+        "elementDerivations": {}
+      },
+      "40": {
+        "source_id": 197.85758711362254,
+        "source_name": "Vehicle rental, leases, licenses, and other charges CPI 3252",
+        "inflationIndex": 155.22619816302034,
+        "relativeImportance": 0.2248412772892911,
+        "adjustedInflationIndex": 34.94207373725008,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 126.4452836675556
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 182.58060872994145
+        },
+        "elementDerivations": {}
+      },
+      "41": {
+        "source_id": 204.9457989279077,
+        "source_name": "Vehicle rental, leases, licenses, and other charges CPI 3255",
+        "inflationIndex": 120.99971988549211,
+        "relativeImportance": 1.2391699432057137,
+        "adjustedInflationIndex": 166.58573234725705,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 157.86417976609343
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 203.564043274712
+        },
+        "elementDerivations": {}
+      },
+      "42": {
+        "source_id": 198.45562838859072,
+        "source_name": "Vehicle insurance CPI",
+        "inflationIndex": 165.04963923204772,
+        "relativeImportance": 3.0540966120042268,
+        "adjustedInflationIndex": 568.9259072939012,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 367.98731885405
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 621.1350615935023
+        },
+        "elementDerivations": {}
+      },
+      "43": {
+        "source_id": 204.6300172559114,
+        "source_name": "Public and other transportation CPI",
+        "inflationIndex": 114.3206089954097,
+        "relativeImportance": 0.5562386319122754,
+        "adjustedInflationIndex": 61.2011343701378,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 247.6892956418318
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 278.1198642340623
+        },
+        "elementDerivations": {}
+      },
+      "44": {
+        "source_id": 203.21423850183677,
+        "source_name": "Natural gas EIA",
+        "inflationIndex": 253.85327250814166,
+        "relativeImportance": 0.44362214645223824,
+        "adjustedInflationIndex": 106.95947629664872,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 10.770045387632996
+        },
+        "latest": {
+          "dateTarget": "2022-08-01",
+          "dateFound": "2022-08-01",
+          "value": 24.367661567257507
+        },
+        "elementDerivations": {}
+      },
+      "45": {
+        "source_id": 200.43024132796754,
+        "source_name": "Natural gas CPI",
+        "inflationIndex": 138.74684434165167,
+        "relativeImportance": 0.4492676829104438,
+        "adjustedInflationIndex": 58.44323174246147,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 196.2585021020564
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 269.8579897426831
+        },
+        "elementDerivations": {}
+      },
+      "46": {
+        "source_id": 201.1067452714843,
+        "source_name": "Electricity EIA",
+        "inflationIndex": 158.98674864301304,
+        "relativeImportance": 1.6886983149724286,
+        "adjustedInflationIndex": 261.3201589796186,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 9.985237129089342
+        },
+        "latest": {
+          "dateTarget": "2022-08-01",
+          "dateFound": "2022-08-01",
+          "value": 15.39669486815195
+        },
+        "elementDerivations": {}
+      },
+      "47": {
+        "source_id": 208.41861884915937,
+        "source_name": "Electricity CPI",
+        "inflationIndex": 135.36959494337825,
+        "relativeImportance": 1.6403170654966004,
+        "adjustedInflationIndex": 233.50341834736324,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 189.4248987089782
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 260.1543869827314
+        },
+        "elementDerivations": {}
+      },
+      "48": {
+        "source_id": 217.9486647875783,
+        "source_name": "Fuel oil and other fuels CPI",
+        "inflationIndex": 180.84360106043655,
+        "relativeImportance": 0.21996328130879098,
+        "adjustedInflationIndex": 39.49631757774762,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 290.1194119560741
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 501.9134963382745
+        },
+        "elementDerivations": {}
+      },
+      "49": {
+        "source_id": 208.106324296577,
+        "source_name": "Water and other public services CPI",
+        "inflationIndex": 167.52891486236786,
+        "relativeImportance": 1.4770809058452115,
+        "adjustedInflationIndex": 236.88943450257926,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 174.31031813191342
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 265.4429686350963
+        },
+        "elementDerivations": {}
+      },
+      "50": {
+        "source_id": 211.5945737083919,
+        "source_name": "Medical care services CPI 324",
+        "inflationIndex": 144.5734205604059,
+        "relativeImportance": 6.0821023497883795,
+        "adjustedInflationIndex": 894.2123534666458,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 403.4205641377153
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 578.2672679477608
+        },
+        "elementDerivations": {}
+      },
+      "51": {
+        "source_id": 219.64513693718564,
+        "source_name": "Medical care services CPI 324",
+        "inflationIndex": 151.68486710573742,
+        "relativeImportance": 1.4701904315497107,
+        "adjustedInflationIndex": 211.69505589813426,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 389.5558661148461
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 585.8820259551698
+        },
+        "elementDerivations": {}
+      },
+      "52": {
+        "source_id": 206.9587611632446,
+        "source_name": "Drugs CPI",
+        "inflationIndex": 120.59717892990739,
+        "relativeImportance": 0.8045073369633353,
+        "adjustedInflationIndex": 101.06340061639904,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.85266403504035
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 131.62446379289386
+        },
+        "elementDerivations": {}
+      },
+      "53": {
+        "source_id": 214.34446799378415,
+        "source_name": "Medical supplies CPI",
+        "inflationIndex": 99.97552720533203,
+        "relativeImportance": 0.2777640838437723,
+        "adjustedInflationIndex": 28.43736470001946,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 103.604492571343
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 103.8961281479666
+        },
+        "elementDerivations": {}
+      },
+      "54": {
+        "source_id": 203.20822888900597,
+        "source_name": "Personal services CPI",
+        "inflationIndex": 139.19140130731873,
+        "relativeImportance": 0.5277179028932504,
+        "adjustedInflationIndex": 77.519599213238,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 145.2591764333831
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 208.8765145199727
+        },
+        "elementDerivations": {}
+      },
+      "55": {
+        "source_id": 203.65901861431453,
+        "source_name": "Other household expenses CPI 3232",
+        "inflationIndex": 144.56763623728762,
+        "relativeImportance": 0.8263618484844253,
+        "adjustedInflationIndex": 132.18165973662096,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 157.2164448944855
+        },
+        "latest": {
+          "dateTarget": "2021-11-01",
+          "dateFound": "2021-11-01",
+          "value": 223.63785658033126
+        },
+        "elementDerivations": {}
+      },
+      "56": {
+        "source_id": 207.30952180369758,
+        "source_name": "Other household expenses CPI 3233",
+        "inflationIndex": 170.41753758627908,
+        "relativeImportance": 0.2940984825696392,
+        "adjustedInflationIndex": 47.65139739825488,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 116.94771755346935
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 199.01679646014205
+        },
+        "elementDerivations": {}
+      },
+      "57": {
+        "source_id": 218.38904676681852,
+        "source_name": "Other household expenses CPI 3234",
+        "inflationIndex": 175.499893447414,
+        "relativeImportance": 0.5564202871527277,
+        "adjustedInflationIndex": 101.33457989421768,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 172.53785973509977
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 315.46209989843834
+        },
+        "elementDerivations": {}
+      },
+      "58": {
+        "source_id": 225.39491231674063,
+        "source_name": "Laundry and cleaning supplies CPI 3116",
+        "inflationIndex": 119.39514802289237,
+        "relativeImportance": 0.27351684245889946,
+        "adjustedInflationIndex": 31.966694862138525,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 181.49881280396934
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 216.7641612983187
+        },
+        "elementDerivations": {}
+      },
+      "59": {
+        "source_id": 223.50300856992268,
+        "source_name": "Laundry and cleaning supplies CPI 3116",
+        "inflationIndex": 118.71320805506063,
+        "relativeImportance": 0.7893588707137319,
+        "adjustedInflationIndex": 96.9131923460137,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 185.0023408633787
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 224.13564269136972
+        },
+        "elementDerivations": {}
+      },
+      "60": {
+        "source_id": 216.5045825027971,
+        "source_name": "Postage and stationery CPI",
+        "inflationIndex": 148.86460356313555,
+        "relativeImportance": 0.19187547795506787,
+        "adjustedInflationIndex": 30.43663952383212,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 143.16528880235856
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 230.5989364574836
+        },
+        "elementDerivations": {}
+      },
+      "61": {
+        "source_id": 221.00517568376864,
+        "source_name": "Alcoholic beverages CPI",
+        "inflationIndex": 130.6602987130834,
+        "relativeImportance": 0.558505246870997,
+        "adjustedInflationIndex": 73.56468638507123,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 228.27009245049751
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 278.5805226223024
+        },
+        "elementDerivations": {}
+      },
+      "62": {
+        "source_id": 218.79543313322452,
+        "source_name": "Alcoholic beverages NielsenIQ",
+        "inflationIndex": 119.99373712415877,
+        "relativeImportance": 0.6005034182333353,
+        "adjustedInflationIndex": 65.05607914451828,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 224.4466849672724
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 269.67246829584593
+        },
+        "elementDerivations": {}
+      },
+      "63": {
+        "source_id": 224.34186885461358,
+        "source_name": "Tobacco Products and Smoking Supplies CPI",
+        "inflationIndex": 172.78527560521948,
+        "relativeImportance": 0.3686208001623813,
+        "adjustedInflationIndex": 67.59101742759574,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 796.5708663664986
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 1418.5369901680947
+        },
+        "elementDerivations": {}
+      },
+      "64": {
+        "source_id": 222.80609629213097,
+        "source_name": "Tobacco Products and Smoking Supplies NielsenIQ",
+        "inflationIndex": 182.53818734140032,
+        "relativeImportance": 0.3874450427947344,
+        "adjustedInflationIndex": 66.15300182135756,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 764.7310896892895
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 1389.5646275923657
+        },
+        "elementDerivations": {}
+      },
+      "65": {
+        "source_id": 227.3921302224158,
+        "source_name": "Men, 16 and over CPI",
+        "inflationIndex": 109.93160374674973,
+        "relativeImportance": 0.6227086271575084,
+        "adjustedInflationIndex": 67.862651984146,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 109.21214386362114
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 125.22628864545727
+        },
+        "elementDerivations": {}
+      },
+      "66": {
+        "source_id": 222.9335457920503,
+        "source_name": "Boys, 2 to 15 CPI",
+        "inflationIndex": 123.7833252416891,
+        "relativeImportance": 0.21685346138817652,
+        "adjustedInflationIndex": 28.25710903916623,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.14437564221755
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 115.15891711071588
+        },
+        "elementDerivations": {}
+      },
+      "67": {
+        "source_id": 229.35134968994657,
+        "source_name": "Women, 16 and over CPI",
+        "inflationIndex": 107.25514805194008,
+        "relativeImportance": 1.198059382825984,
+        "adjustedInflationIndex": 123.97385428765266,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 104.31231300629764
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 111.68286259479355
+        },
+        "elementDerivations": {}
+      },
+      "68": {
+        "source_id": 236.46203945581703,
+        "source_name": "Girls, 2 to 15 CPI",
+        "inflationIndex": 108.69975061870775,
+        "relativeImportance": 0.23684868340463047,
+        "adjustedInflationIndex": 24.75170093378263,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 93.87896338640952
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 102.02189540758673
+        },
+        "elementDerivations": {}
+      },
+      "69": {
+        "source_id": 221.7972902646275,
+        "source_name": "Children under 2 CPI",
+        "inflationIndex": 111.14295413917264,
+        "relativeImportance": 0.17564597844552826,
+        "adjustedInflationIndex": 19.374403477421893,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 109.2543168026213
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 126.83329536028262
+        },
+        "elementDerivations": {}
+      },
+      "70": {
+        "source_id": 217.21287505026854,
+        "source_name": "Footwear CPI",
+        "inflationIndex": 118.1479224586082,
+        "relativeImportance": 0.8701908738389635,
+        "adjustedInflationIndex": 95.80035916417926,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 131.44036883993655
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 150.9886831205816
+        },
+        "elementDerivations": {}
+      },
+      "71": {
+        "source_id": 237.08845079867368,
+        "source_name": "Other apparel products and services CPI",
+        "inflationIndex": 123.17392674468297,
+        "relativeImportance": 0.49782012829231875,
+        "adjustedInflationIndex": 58.817535740900496,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 149.98285612222344
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 184.07096445958155
+        },
+        "elementDerivations": {}
+      },
+      "72": {
+        "source_id": 237.43651500392141,
+        "source_name": "Residential phone service, VOIP, and phone cards CPI",
+        "inflationIndex": 146.39891586827247,
+        "relativeImportance": 0.39951989543736915,
+        "adjustedInflationIndex": 58.15822960277725,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 98.34313256610761
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 150.5795096037959
+        },
+        "elementDerivations": {}
+      },
+      "73": {
+        "source_id": 223.8384945416252,
+        "source_name": "Cellular phone service CPI",
+        "inflationIndex": 75.44292842026766,
+        "relativeImportance": 2.785606708673872,
+        "adjustedInflationIndex": 205.7489756125467,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 64.93948845946308
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 47.79619587007014
+        },
+        "elementDerivations": {}
+      },
+      "74": {
+        "source_id": 242.2988578358676,
+        "source_name": "Reading CPI",
+        "inflationIndex": 138.86334219862678,
+        "relativeImportance": 0.1832973033898609,
+        "adjustedInflationIndex": 26.543650440996917,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 515.0122826630353
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 691.9403766978191
+        },
+        "elementDerivations": {}
+      },
+      "75": {
+        "source_id": 230.12720140022796,
+        "source_name": "Education CPI 3271",
+        "inflationIndex": 146.83655091252987,
+        "relativeImportance": 1.602401869583737,
+        "adjustedInflationIndex": 230.41156723511352,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 567.9214175270477
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 812.4326253546453
+        },
+        "elementDerivations": {}
+      },
+      "76": {
+        "source_id": 238.44961784381687,
+        "source_name": "Education CPI 3274",
+        "inflationIndex": 100.87958113546088,
+        "relativeImportance": 0.52062360511427,
+        "adjustedInflationIndex": 55.6837899343868,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 72.67047946285692
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 84.03989400471967
+        },
+        "elementDerivations": {}
+      },
+      "77": {
+        "source_id": 242.9924272662161,
+        "source_name": "Fees and admissions CPI",
+        "inflationIndex": 131.91782006927954,
+        "relativeImportance": 0.8110105317087903,
+        "adjustedInflationIndex": 107.69846475956449,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 147.65788001419773
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 187.40057924746358
+        },
+        "elementDerivations": {}
+      },
+      "78": {
+        "source_id": 228.045679280351,
+        "source_name": "Audio and visual equipment and services CPI 3162",
+        "inflationIndex": 42.138581511468885,
+        "relativeImportance": 0.39566105918628314,
+        "adjustedInflationIndex": 17.501686116210845,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 100.25705640415305
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 45.19943154241347
+        },
+        "elementDerivations": {}
+      },
+      "79": {
+        "source_id": 226.05714136990002,
+        "source_name": "Audio and visual equipment and services CPI 3151",
+        "inflationIndex": 34.075223723492364,
+        "relativeImportance": 0.2886358877940032,
+        "adjustedInflationIndex": 10.308350302152032,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 99.19611178631143
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 34.1369660134577
+        },
+        "elementDerivations": {}
+      },
+      "80": {
+        "source_id": 246.08238592630804,
+        "source_name": "Audio and visual equipment and services CPI 3261",
+        "inflationIndex": 136.2377679422529,
+        "relativeImportance": 1.3664805712827475,
+        "adjustedInflationIndex": 191.3457426251737,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 101.82495053680191
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 148.34366355356022
+        },
+        "elementDerivations": {}
+      },
+      "81": {
+        "source_id": 250.23951866090442,
+        "source_name": "Pets CPI 3152",
+        "inflationIndex": 122.67370847417348,
+        "relativeImportance": 0.6707875477775043,
+        "adjustedInflationIndex": 83.01658855794267,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 201.36021381178537
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 242.84427889519512
+        },
+        "elementDerivations": {}
+      },
+      "82": {
+        "source_id": 240.25327091392344,
+        "source_name": "Pets CPI 3262",
+        "inflationIndex": 166.8120441771345,
+        "relativeImportance": 0.603531074784527,
+        "adjustedInflationIndex": 107.92993059724094,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 186.51618632941435
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 296.3149483651555
+        },
+        "elementDerivations": {}
+      },
+      "83": {
+        "source_id": 241.8250870724833,
+        "source_name": "Toys, hobbies, and playground equipment CPI",
+        "inflationIndex": 61.02744236891339,
+        "relativeImportance": 0.34193720600637223,
+        "adjustedInflationIndex": 18.84872055117099,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 59.130994777712964
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 32.99952593984563
+        },
+        "elementDerivations": {}
+      },
+      "84": {
+        "source_id": 231.72981377833744,
+        "source_name": "Personal Care products and services CPI 3183",
+        "inflationIndex": 96.71482473502957,
+        "relativeImportance": 0.24917629193610444,
+        "adjustedInflationIndex": 24.501807904683076,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 88.02568679983983
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 84.60923187845714
+        },
+        "elementDerivations": {}
+      },
+      "85": {
+        "source_id": 234.010660045897,
+        "source_name": "Personal Care products and services CPI 3182",
+        "inflationIndex": 93.84336976951693,
+        "relativeImportance": 0.883479307456322,
+        "adjustedInflationIndex": 81.98605327887542,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 162.439745719248
+        },
+        "latest": {
+          "dateTarget": "2021-06-01",
+          "dateFound": "2021-06-01",
+          "value": 159.99820406435492
+        },
+        "elementDerivations": {}
+      },
+      "86": {
+        "source_id": 236.60192056269784,
+        "source_name": "Personal Care products and services CPI 328",
+        "inflationIndex": 140.91518730822241,
+        "relativeImportance": 2.1668847927916186,
+        "adjustedInflationIndex": 289.4785029934511,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 97.51131387048805
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 137.49249678050836
+        },
+        "elementDerivations": {}
+      },
+      "87": {
+        "source_id": 244.02501972947093,
+        "source_name": "Household textiles CPI 31112",
+        "inflationIndex": 92.42029217138729,
+        "relativeImportance": 0.05282524652960297,
+        "adjustedInflationIndex": 5.036822981017538,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 79.38625841708816
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 74.52158488261864
+        },
+        "elementDerivations": {}
+      },
+      "88": {
+        "source_id": 249.2580518307148,
+        "source_name": "Household textiles CPI 31113",
+        "inflationIndex": 71.98496011941062,
+        "relativeImportance": 0.12716169442897868,
+        "adjustedInflationIndex": 9.097070005809632,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 61.839865555176566
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 47.34821627757777
+        },
+        "elementDerivations": {}
+      },
+      "89": {
+        "source_id": 246.37606671384006,
+        "source_name": "Furniture CPI 3112",
+        "inflationIndex": 111.82195311033436,
+        "relativeImportance": 0.8440738253915878,
+        "adjustedInflationIndex": 91.39279314346766,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 122.4645734146877
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 140.05363584517605
+        },
+        "elementDerivations": {}
+      },
+      "90": {
+        "source_id": 237.05711585417313,
+        "source_name": "Floor coverings CPI 31111",
+        "inflationIndex": 117.112228099442,
+        "relativeImportance": 0.04545642377459534,
+        "adjustedInflationIndex": 5.208973126461662,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 114.07461649838521
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 129.59039100271724
+        },
+        "elementDerivations": {}
+      },
+      "91": {
+        "source_id": 243.1574440421012,
+        "source_name": "Major appliances CPI 31131",
+        "inflationIndex": 101.44926584148186,
+        "relativeImportance": 0.5484073901721637,
+        "adjustedInflationIndex": 52.75804090164268,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 96.62766507057412
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 97.92386697452586
+        },
+        "elementDerivations": {}
+      },
+      "92": {
+        "source_id": 250.25945274325022,
+        "source_name": "Small appliances, miscellaneous housewares CPI 31132",
+        "inflationIndex": 104.80893411236706,
+        "relativeImportance": 0.19818798258102518,
+        "adjustedInflationIndex": 21.392831166216695,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 71.80511088682306
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 75.8538294260615
+        },
+        "elementDerivations": {}
+      },
+      "93": {
+        "source_id": 246.6562931439264,
+        "source_name": "Miscellaneous household equipment CPI 3115",
+        "inflationIndex": 120.01329005320731,
+        "relativeImportance": 1.111894094892313,
+        "adjustedInflationIndex": 134.77847562660327,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 88.82983521668743
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 109.15754363950306
+        },
+        "elementDerivations": {}
+      },
+      "94": {
+        "source_id": 253.4537401808771,
+        "source_name": "Miscellaneous household equipment CPI 3114",
+        "inflationIndex": 78.8980940334346,
+        "relativeImportance": 0.7076237300844309,
+        "adjustedInflationIndex": 53.555588309715375,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 75.0447324930687
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 53.950613995079756
+        },
+        "elementDerivations": {}
+      },
+      "95": {
+        "source_id": 250.85824410207405,
+        "source_name": "Beverages CPI",
+        "inflationIndex": 127.37173765860622,
+        "relativeImportance": 0.3044651308663134,
+        "adjustedInflationIndex": 38.61000382110034,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 155.68360945481072
+        },
+        "latest": {
+          "dateTarget": "2022-10-01",
+          "dateFound": "2022-10-01",
+          "value": 213.0325909934223
+        },
+        "elementDerivations": {}
+      },
+      "96": {
+        "source_id": 263.0482348875218,
+        "source_name": "Beverages NielsenIQ",
+        "inflationIndex": 131.95024866130058,
+        "relativeImportance": 0.573912589189645,
+        "adjustedInflationIndex": 80.38216613306652,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 157.10732937196718
+        },
+        "latest": {
+          "dateTarget": "2022-11-05",
+          "dateFound": "2022-11-05",
+          "value": 213.39735080151803
+        },
+        "elementDerivations": {}
+      }
+    },
+    "yearAgo": {
+      "0": {
+        "source_id": 164.98998262767475,
+        "source_name": "Cereals and bakery products CPI",
+        "inflationIndex": 122.37930336550825,
+        "relativeImportance": 0.3494837254817657,
+        "adjustedInflationIndex": 40.28914321881644,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 238.82533938964076
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 294.59694372501144
+        },
+        "elementDerivations": {}
+      },
+      "1": {
+        "source_id": 175.601317928225,
+        "source_name": "Meats, poultry, fish and eggs CPI",
+        "inflationIndex": 145.07762508364323,
+        "relativeImportance": 0.5372352347001044,
+        "adjustedInflationIndex": 80.0160945925696,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 194.9553357300412
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 306.67954728475195
+        },
+        "elementDerivations": {}
+      },
+      "2": {
+        "source_id": 162.0480918056594,
+        "source_name": "Dairy products CPI",
+        "inflationIndex": 114.36456843050821,
+        "relativeImportance": 0.2408068281526041,
+        "adjustedInflationIndex": 29.66234551548705,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 206.74182204929036
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 226.70566583479695
+        },
+        "elementDerivations": {}
+      },
+      "3": {
+        "source_id": 168.79814218296053,
+        "source_name": "Fruits and vegetables CPI",
+        "inflationIndex": 108.92175216892105,
+        "relativeImportance": 0.49393023594017166,
+        "adjustedInflationIndex": 61.21762287840654,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 309.75788815052266
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 383.94960921093985
+        },
+        "elementDerivations": {}
+      },
+      "4": {
+        "source_id": 170.37321402254057,
+        "source_name": "Other food at home CPI",
+        "inflationIndex": 124.4608063202372,
+        "relativeImportance": 0.6536167184319415,
+        "adjustedInflationIndex": 72.91079571102183,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 200.19730865302733
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 228.55149514855466
+        },
+        "elementDerivations": {}
+      },
+      "5": {
+        "source_id": 165.221836784852,
+        "source_name": "Cereals and bakery products NielsenIQ",
+        "inflationIndex": 123.44412770448679,
+        "relativeImportance": 0.6582758135582,
+        "adjustedInflationIndex": 80.44642629770576,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 250.1385188789643
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 297.55025720223256
+        },
+        "elementDerivations": {}
+      },
+      "6": {
+        "source_id": 181.02549156162885,
+        "source_name": "Meats, poultry, fish and eggs NielsenIQ",
+        "inflationIndex": 143.31875200093774,
+        "relativeImportance": 1.1704715353544048,
+        "adjustedInflationIndex": 161.7689515483612,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 204.18075359841222
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 288.8171745414836
+        },
+        "elementDerivations": {}
+      },
+      "7": {
+        "source_id": 168.62943954741291,
+        "source_name": "Dairy products NielsenIQ",
+        "inflationIndex": 119.23438729172456,
+        "relativeImportance": 0.5030203275000679,
+        "adjustedInflationIndex": 60.825804485506445,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 190.09246095846578
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 238.35591410578277
+        },
+        "elementDerivations": {}
+      },
+      "8": {
+        "source_id": 177.83276217989905,
+        "source_name": "Fruits and vegetables NielsenIQ",
+        "inflationIndex": 114.62285512655916,
+        "relativeImportance": 0.9991175337241902,
+        "adjustedInflationIndex": 120.62675156337006,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 328.8890555614538
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 363.1917325275659
+        },
+        "elementDerivations": {}
+      },
+      "9": {
+        "source_id": 179.84264879070292,
+        "source_name": "Other food at home NielsenIQ",
+        "inflationIndex": 119.69609990910706,
+        "relativeImportance": 1.2966575107479241,
+        "adjustedInflationIndex": 153.31712511505526,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 188.20557795070664
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 240.0675636961901
+        },
+        "elementDerivations": {}
+      },
+      "10": {
+        "source_id": 175.66768106885223,
+        "source_name": "Food YF",
+        "inflationIndex": 112.59221921140544,
+        "relativeImportance": 1.6327595415385867,
+        "adjustedInflationIndex": 194.87329834076945,
+        "elementDerivations": {
+          "0": {
+            "element_id": 156.5191800069107,
+            "element_name": "Corn YF",
+            "inflationIndex": 139.52498043704205,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 407.52601002559015
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 554.6882737628478
+            }
+          },
+          "1": {
+            "element_id": 162.01292769987808,
+            "element_name": "Wheat YF",
+            "inflationIndex": 144.22986831178835,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 578.7418427290069
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 851.5354173690823
+            }
+          },
+          "2": {
+            "element_id": 158.96995631700466,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 110.10022633774811,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1047.6757953085605
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1265.7804775485513
+            }
+          },
+          "3": {
+            "element_id": 158.2431724672823,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 111.349956472551,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 308.65316160371276
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 353.83126192418183
+            }
+          },
+          "4": {
+            "element_id": 166.6014268944047,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 140.46101714148296,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 41.98731079622071
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 60.483186093985
+            }
+          },
+          "5": {
+            "element_id": 170.16841503251524,
+            "element_name": "Coffee YF",
+            "inflationIndex": 148.74844259489174,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 143.73575099027929
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 220.11853129254405
+            }
+          },
+          "6": {
+            "element_id": 156.41973404562322,
+            "element_name": "Sugar YF",
+            "inflationIndex": 73.82539013273473,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.12135519238368
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 20.666637137521786
+            }
+          },
+          "7": {
+            "element_id": 160.08876678920146,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 74.25925095562927,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3094.1944689452503
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2536.9840602173963
+            }
+          },
+          "8": {
+            "element_id": 158.31255800780522,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 149.46437425914766,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 83.68870481721355
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 138.46239666285604
+            }
+          },
+          "9": {
+            "element_id": 163.00626575646845,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 112.46312183203389,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 65.19718277468655
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 79.02668711687066
+            }
+          }
+        }
+      },
+      "11": {
+        "source_id": 174.99846615125932,
+        "source_name": "Food YF",
+        "inflationIndex": 119.62040264234216,
+        "relativeImportance": 0.3293823242567135,
+        "adjustedInflationIndex": 40.3903166682719,
+        "elementDerivations": {
+          "0": {
+            "element_id": 155.49715986760913,
+            "element_name": "Corn YF",
+            "inflationIndex": 139.1294382764524,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 426.09715642601043
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 556.0932276506608
+            }
+          },
+          "1": {
+            "element_id": 156.12638704846913,
+            "element_name": "Wheat YF",
+            "inflationIndex": 139.84545772611668,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 564.5202926457832
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 784.6508852240887
+            }
+          },
+          "2": {
+            "element_id": 160.39355123859343,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 117.5125729188718,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1101.1807235635217
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1244.3995308050428
+            }
+          },
+          "3": {
+            "element_id": 159.87670781287605,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 114.27392643119389,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 313.924616540708
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 345.77305090262604
+            }
+          },
+          "4": {
+            "element_id": 168.27909597648306,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 146.25582501687487,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 40.2521618780736
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 58.76271921432759
+            }
+          },
+          "5": {
+            "element_id": 165.83998671053558,
+            "element_name": "Coffee YF",
+            "inflationIndex": 152.74722741961614,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 142.05974778594123
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 206.436584474533
+            }
+          },
+          "6": {
+            "element_id": 170.94189592029764,
+            "element_name": "Sugar YF",
+            "inflationIndex": 70.56511685727683,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.48111442469315
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 20.946493427538186
+            }
+          },
+          "7": {
+            "element_id": 165.3982197420778,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 74.1684584937893,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3228.5366469418504
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2536.2439568742993
+            }
+          },
+          "8": {
+            "element_id": 165.77090897069286,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 153.91189376105484,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 82.63354972714285
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 133.9946960185264
+            }
+          },
+          "9": {
+            "element_id": 169.20961566284393,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 117.88736277841873,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 64.27955772163463
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 77.5237032578886
+            }
+          }
+        }
+      },
+      "12": {
+        "source_id": 174.0729226222369,
+        "source_name": "Food YF",
+        "inflationIndex": 118.21396648225257,
+        "relativeImportance": 0.883105221437794,
+        "adjustedInflationIndex": 112.76942505397163,
+        "elementDerivations": {
+          "0": {
+            "element_id": 152.66961722991897,
+            "element_name": "Corn YF",
+            "inflationIndex": 132.00296660015454,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 431.79606446006227
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 580.7648502112429
+            }
+          },
+          "1": {
+            "element_id": 162.6999883103273,
+            "element_name": "Wheat YF",
+            "inflationIndex": 149.43381444281204,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 565.0411873173413
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 821.6177724211121
+            }
+          },
+          "2": {
+            "element_id": 154.98381246954528,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 112.6829254414258,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1048.1440320789577
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1157.2190992835197
+            }
+          },
+          "3": {
+            "element_id": 163.59306535461337,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 108.25976411816816,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 306.17438165501795
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 348.32069444998353
+            }
+          },
+          "4": {
+            "element_id": 160.04801406643946,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 148.91040922372122,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 40.3662629457982
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 57.31198367652274
+            }
+          },
+          "5": {
+            "element_id": 167.24299106714662,
+            "element_name": "Coffee YF",
+            "inflationIndex": 149.15738195489598,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 136.9602860965824
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 212.98362233858313
+            }
+          },
+          "6": {
+            "element_id": 168.99610950912128,
+            "element_name": "Sugar YF",
+            "inflationIndex": 76.20711546833827,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.818861657964156
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 20.881657852300812
+            }
+          },
+          "7": {
+            "element_id": 170.5402733436344,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 74.18682370947737,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3096.6560445088357
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2376.152986343527
+            }
+          },
+          "8": {
+            "element_id": 166.0384882220477,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 160.86866020917896,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 86.91867815394842
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 131.28073016308787
+            }
+          },
+          "9": {
+            "element_id": 171.63215248673694,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 112.33437060883426,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 62.74475114312086
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 77.56690357000828
+            }
+          }
+        }
+      },
+      "13": {
+        "source_id": 172.51023320420768,
+        "source_name": "Food YF",
+        "inflationIndex": 121.57840748457285,
+        "relativeImportance": 0.5303517590561603,
+        "adjustedInflationIndex": 62.52437969272653,
+        "elementDerivations": {
+          "0": {
+            "element_id": 159.2062724612731,
+            "element_name": "Corn YF",
+            "inflationIndex": 132.47472552499283,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 422.90482832481564
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 597.2360910091902
+            }
+          },
+          "1": {
+            "element_id": 155.0140318229584,
+            "element_name": "Wheat YF",
+            "inflationIndex": 147.7318577689413,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 560.7093918920384
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 801.8631376950973
+            }
+          },
+          "2": {
+            "element_id": 159.55816014877294,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 111.36261232269285,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1047.9958816946341
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1163.548774174211
+            }
+          },
+          "3": {
+            "element_id": 167.37909447638287,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 109.33795715923321,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 302.66130805709554
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 328.85256102972113
+            }
+          },
+          "4": {
+            "element_id": 168.86603098993712,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 151.02538404243705,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 42.15832729819369
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 58.15512921011666
+            }
+          },
+          "5": {
+            "element_id": 166.83155758707198,
+            "element_name": "Coffee YF",
+            "inflationIndex": 152.51160367921435,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 147.00192133460172
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 209.17610056066604
+            }
+          },
+          "6": {
+            "element_id": 165.77159591178477,
+            "element_name": "Sugar YF",
+            "inflationIndex": 71.55157582197242,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 26.394043970858245
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 20.830977739241288
+            }
+          },
+          "7": {
+            "element_id": 171.32304906763935,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 72.942666525479,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3195.3654219085256
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2467.7705583820375
+            }
+          },
+          "8": {
+            "element_id": 163.71341953266108,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 161.8117460877592,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 84.5582213311369
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 128.63207675487072
+            }
+          },
+          "9": {
+            "element_id": 163.67740556247642,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 118.79939134836451,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 67.2847744896911
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 72.94199216862057
+            }
+          }
+        }
+      },
+      "14": {
+        "source_id": 185.60706307208997,
+        "source_name": "Food YF",
+        "inflationIndex": 122.34165815389467,
+        "relativeImportance": 0.2548272448374572,
+        "adjustedInflationIndex": 29.672459446708597,
+        "elementDerivations": {
+          "0": {
+            "element_id": 165.66272630299147,
+            "element_name": "Corn YF",
+            "inflationIndex": 134.6422994340018,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 425.90643522156284
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 558.5908635505543
+            }
+          },
+          "1": {
+            "element_id": 164.08171975983535,
+            "element_name": "Wheat YF",
+            "inflationIndex": 139.65099501716688,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 556.989131562899
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 826.9456521520093
+            }
+          },
+          "2": {
+            "element_id": 167.00696206927435,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 118.61593904782775,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1044.0896650649145
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1190.1858008364584
+            }
+          },
+          "3": {
+            "element_id": 165.697396726636,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 107.33805766528816,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 307.9170914313166
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 359.13999391517285
+            }
+          },
+          "4": {
+            "element_id": 161.6976637510972,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 143.4190296626739,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 39.58437300397355
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 60.65343409108488
+            }
+          },
+          "5": {
+            "element_id": 168.15571045581956,
+            "element_name": "Coffee YF",
+            "inflationIndex": 145.78022664857085,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 145.16716591045574
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 214.58379713822026
+            }
+          },
+          "6": {
+            "element_id": 159.97402209386246,
+            "element_name": "Sugar YF",
+            "inflationIndex": 74.96348965044294,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 26.424974227015365
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 19.396344915592618
+            }
+          },
+          "7": {
+            "element_id": 167.1473318942886,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 77.10930455631413,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3281.8963615366624
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2496.9273282960207
+            }
+          },
+          "8": {
+            "element_id": 163.783724752042,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 150.3943126550164,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 82.52724613585458
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 136.5875872916994
+            }
+          },
+          "9": {
+            "element_id": 167.665272936515,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 115.83686449460549,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 65.799766258713
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 77.78345223434843
+            }
+          }
+        }
+      },
+      "15": {
+        "source_id": 171.30574711210855,
+        "source_name": "Food YF",
+        "inflationIndex": 120.32146113455434,
+        "relativeImportance": 0.5829372063559111,
+        "adjustedInflationIndex": 63.4733362171678,
+        "elementDerivations": {
+          "0": {
+            "element_id": 153.3709053695674,
+            "element_name": "Corn YF",
+            "inflationIndex": 139.1972132365934,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 424.26503418429735
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 575.2107348057696
+            }
+          },
+          "1": {
+            "element_id": 151.40124407199463,
+            "element_name": "Wheat YF",
+            "inflationIndex": 144.49150967235113,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 565.7173599228976
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 779.6163573534293
+            }
+          },
+          "2": {
+            "element_id": 157.38491233337342,
+            "element_name": "Soybeans YF",
+            "inflationIndex": 115.07581530223322,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 1002.5022619894229
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 1189.3522486390755
+            }
+          },
+          "3": {
+            "element_id": 165.7897436239694,
+            "element_name": "Soy Meal YF",
+            "inflationIndex": 105.90037188181672,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 309.6657166597811
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 327.99170969370726
+            }
+          },
+          "4": {
+            "element_id": 163.86917577323757,
+            "element_name": "Soy Oil YF",
+            "inflationIndex": 138.5614204819937,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 42.251032869076084
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 61.1899881578643
+            }
+          },
+          "5": {
+            "element_id": 157.74140639526502,
+            "element_name": "Coffee YF",
+            "inflationIndex": 142.24566189170355,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 143.30533106179396
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 215.8537134406968
+            }
+          },
+          "6": {
+            "element_id": 156.55176111919016,
+            "element_name": "Sugar YF",
+            "inflationIndex": 74.98348894150607,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 27.837163575915397
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 20.327784698542157
+            }
+          },
+          "7": {
+            "element_id": 165.56858821744936,
+            "element_name": "Cocoa YF",
+            "inflationIndex": 79.43275940986015,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 3398.0821762440705
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 2518.4599793346742
+            }
+          },
+          "8": {
+            "element_id": 158.66730391436593,
+            "element_name": "Live Cattle YF",
+            "inflationIndex": 156.89557056815445,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 88.46117463987757
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 127.47764495630912
+            }
+          },
+          "9": {
+            "element_id": 163.36215383998504,
+            "element_name": "Lean Hogs YF",
+            "inflationIndex": 112.50199345493137,
+            "earliest": {
+              "dateTarget": "2010-01-01",
+              "dateFound": "2010-01-04",
+              "value": 66.99005397424482
+            },
+            "latest": {
+              "dateTarget": "2021-11-11",
+              "dateFound": "2021-11-11",
+              "value": 74.31821687677942
+            }
+          }
+        }
+      },
+      "16": {
+        "source_id": 176.87863153220263,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3153",
+        "inflationIndex": 105.90486570044924,
+        "relativeImportance": 0.8233691108601809,
+        "adjustedInflationIndex": 88.07883524311704,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 116.51242594348744
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 127.79078796485487
+        },
+        "elementDerivations": {}
+      },
+      "17": {
+        "source_id": 180.7479552341511,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3154",
+        "inflationIndex": 84.13333263755158,
+        "relativeImportance": 0.03659917699854119,
+        "adjustedInflationIndex": 3.1275051629147335,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 73.26339703204027
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 57.408858571670166
+        },
+        "elementDerivations": {}
+      },
+      "18": {
+        "source_id": 174.07537582399448,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3155",
+        "inflationIndex": 128.1833354524563,
+        "relativeImportance": 0.16251818550215524,
+        "adjustedInflationIndex": 20.357974940715366,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 231.31837674987295
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 282.846955429585
+        },
+        "elementDerivations": {}
+      },
+      "19": {
+        "source_id": 178.5860256543745,
+        "source_name": "Other entertainment supplies, equipment, and services CPI 3263",
+        "inflationIndex": 106.81005931227848,
+        "relativeImportance": 0.059291690271288694,
+        "adjustedInflationIndex": 6.393240667501905,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 113.14579891117867
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 117.55769513985894
+        },
+        "elementDerivations": {}
+      },
+      "20": {
+        "source_id": 184.58472039300477,
+        "source_name": "Food away from home CPI",
+        "inflationIndex": 135.33118841655244,
+        "relativeImportance": 1.6799718008946116,
+        "adjustedInflationIndex": 224.72588994688795,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 220.49211149519596
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 328.7552482476764
+        },
+        "elementDerivations": {}
+      },
+      "21": {
+        "source_id": 191.71216109917418,
+        "source_name": "Food away from home BigMac",
+        "inflationIndex": 158.5223718694646,
+        "relativeImportance": 1.5734398718123932,
+        "adjustedInflationIndex": 254.0871224204384,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 3.61842355669872
+        },
+        "latest": {
+          "dateTarget": "2021-07-01",
+          "dateFound": "2021-07-01",
+          "value": 5.766373622134998
+        },
+        "elementDerivations": {}
+      },
+      "22": {
+        "source_id": 191.930195671831,
+        "source_name": "ACY index",
+        "inflationIndex": 181.3760682607672,
+        "relativeImportance": 4.122161180385985,
+        "adjustedInflationIndex": 701.5833442769348,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 93.20609450020629
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 158.89757014741076
+        },
+        "elementDerivations": {}
+      },
+      "23": {
+        "source_id": 192.81442373168335,
+        "source_name": "ACY index",
+        "inflationIndex": 176.41159066420005,
+        "relativeImportance": 3.8389216065450307,
+        "adjustedInflationIndex": 659.3298257202616,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 93.47507244398463
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 172.39092539438366
+        },
+        "elementDerivations": {}
+      },
+      "24": {
+        "source_id": 184.68684781566762,
+        "source_name": "ACY index",
+        "inflationIndex": 173.57953289505014,
+        "relativeImportance": 4.384590558482261,
+        "adjustedInflationIndex": 735.604821153705,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 97.52918653265513
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 171.25756154314647
+        },
+        "elementDerivations": {}
+      },
+      "25": {
+        "source_id": 189.8239281617691,
+        "source_name": "ACY index",
+        "inflationIndex": 169.33228880826414,
+        "relativeImportance": 5.632864151260327,
+        "adjustedInflationIndex": 918.4910363169091,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 94.6027585062874
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 170.6705044700269
+        },
+        "elementDerivations": {}
+      },
+      "26": {
+        "source_id": 193.93487326520307,
+        "source_name": "Rented dwellings Zillow",
+        "inflationIndex": 171.99275135337862,
+        "relativeImportance": 4.142329410308043,
+        "adjustedInflationIndex": 668.9395674831688,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 92.09862331717873
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 141.17448986343015
+        },
+        "elementDerivations": {}
+      },
+      "27": {
+        "source_id": 182.58239075580883,
+        "source_name": "Other lodging CPI",
+        "inflationIndex": 129.86651250073757,
+        "relativeImportance": 1.3437563118767644,
+        "adjustedInflationIndex": 177.08687986309286,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 131.99306857493175
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 171.87942929909966
+        },
+        "elementDerivations": {}
+      },
+      "28": {
+        "source_id": 195.90491162241779,
+        "source_name": "Cars and Trucks, new KBB",
+        "inflationIndex": 123.45131148932207,
+        "relativeImportance": 2.0341126035337265,
+        "adjustedInflationIndex": 263.43651973758114,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 37025.2566282286
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 45216.56329548948
+        },
+        "elementDerivations": {}
+      },
+      "29": {
+        "source_id": 194.23937075907966,
+        "source_name": "Cars and Trucks, new CPI",
+        "inflationIndex": 116.395208415341,
+        "relativeImportance": 2.1648465944524515,
+        "adjustedInflationIndex": 247.52851316786547,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 138.21535041381478
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 167.9935333496936
+        },
+        "elementDerivations": {}
+      },
+      "30": {
+        "source_id": 194.33353900273445,
+        "source_name": "Cars and Trucks, used CarGurus",
+        "inflationIndex": 147.05250068669767,
+        "relativeImportance": 1.6381701002418025,
+        "adjustedInflationIndex": 240.95569378521137,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 20021.76587192507
+        },
+        "latest": {
+          "dateTarget": "2021-11-13",
+          "dateFound": "2021-11-13",
+          "value": 29829.18910100245
+        },
+        "elementDerivations": {}
+      },
+      "31": {
+        "source_id": 192.69109430065876,
+        "source_name": "Cars and Trucks, used UVVI",
+        "inflationIndex": 181.3718030268705,
+        "relativeImportance": 1.6227638350658613,
+        "adjustedInflationIndex": 299.17843388556145,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 117.28391283563315
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 231.69616141582074
+        },
+        "elementDerivations": {}
+      },
+      "32": {
+        "source_id": 188.26485883604306,
+        "source_name": "Cars and Trucks, used JDPower",
+        "inflationIndex": 194.64237446301718,
+        "relativeImportance": 1.6562682016226562,
+        "adjustedInflationIndex": 314.59578281345733,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 101.50989558595167
+        },
+        "latest": {
+          "dateTarget": "2021-09-01",
+          "dateFound": "2021-09-01",
+          "value": 198.3721096185305
+        },
+        "elementDerivations": {}
+      },
+      "33": {
+        "source_id": 194.2351685926408,
+        "source_name": "Other vehicles CPI",
+        "inflationIndex": 119.66344847261628,
+        "relativeImportance": 0.15652228066923796,
+        "adjustedInflationIndex": 18.297343578364256,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 134.9603725964086
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 159.22738435674043
+        },
+        "elementDerivations": {}
+      },
+      "34": {
+        "source_id": 195.71179843232926,
+        "source_name": "Gasoline (all types) AAA",
+        "inflationIndex": 131.32239532780216,
+        "relativeImportance": 1.5220074464510556,
+        "adjustedInflationIndex": 194.1346203822153,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 100.99903695769248
+        },
+        "latest": {
+          "dateTarget": "2021-11-14",
+          "dateFound": "2021-11-14",
+          "value": 126.95911263902134
+        },
+        "elementDerivations": {}
+      },
+      "35": {
+        "source_id": 194.9642031695767,
+        "source_name": "Gasoline (all types) EIA",
+        "inflationIndex": 130.17877752569876,
+        "relativeImportance": 1.481731764580564,
+        "adjustedInflationIndex": 200.28684509716035,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 2.655251012892465
+        },
+        "latest": {
+          "dateTarget": "2021-11-07",
+          "dateFound": "2021-11-01",
+          "value": 3.6062293134518986
+        },
+        "elementDerivations": {}
+      },
+      "36": {
+        "source_id": 205.26242542123043,
+        "source_name": "Other fuels and motor oil AAA",
+        "inflationIndex": 123.3064660292716,
+        "relativeImportance": 0.033838309666177235,
+        "adjustedInflationIndex": 4.071055378545908,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 217.82059987121156
+        },
+        "latest": {
+          "dateTarget": "2021-11-14",
+          "dateFound": "2021-11-01",
+          "value": 274.8935607374803
+        },
+        "elementDerivations": {}
+      },
+      "37": {
+        "source_id": 190.1348982196457,
+        "source_name": "Other fuels and motor oil CPI",
+        "inflationIndex": 121.29220219105224,
+        "relativeImportance": 0.03351253679253555,
+        "adjustedInflationIndex": 4.257402949538379,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 205.8200695915426
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 266.6038659052008
+        },
+        "elementDerivations": {}
+      },
+      "38": {
+        "source_id": 195.18954273621603,
+        "source_name": "Vehicle finance charges CPI",
+        "inflationIndex": 81.58685661946741,
+        "relativeImportance": 0.5278235289555572,
+        "adjustedInflationIndex": 42.2387658197532,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 99.80153526900041
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-01-01",
+          "value": 81.50930914680666
+        },
+        "elementDerivations": {}
+      },
+      "39": {
+        "source_id": 189.50473914892808,
+        "source_name": "Maintenance and repairs CPI",
+        "inflationIndex": 127.01161031366053,
+        "relativeImportance": 1.8326453731994723,
+        "adjustedInflationIndex": 230.60509827612688,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 257.5552415115136
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 335.7877012623081
+        },
+        "elementDerivations": {}
+      },
+      "40": {
+        "source_id": 196.5584957154446,
+        "source_name": "Vehicle rental, leases, licenses, and other charges CPI 3252",
+        "inflationIndex": 156.31511977434081,
+        "relativeImportance": 0.2253445481220056,
+        "adjustedInflationIndex": 39.01422774055907,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 121.48948100969514
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 195.05102455170555
+        },
+        "elementDerivations": {}
+      },
+      "41": {
+        "source_id": 209.2545832294023,
+        "source_name": "Vehicle rental, leases, licenses, and other charges CPI 3255",
+        "inflationIndex": 123.86283083367745,
+        "relativeImportance": 1.2737961416007495,
+        "adjustedInflationIndex": 156.4679269034013,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 169.10444078287242
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 194.35471027754338
+        },
+        "elementDerivations": {}
+      },
+      "42": {
+        "source_id": 211.8092703143438,
+        "source_name": "Vehicle insurance CPI",
+        "inflationIndex": 159.3255565844317,
+        "relativeImportance": 3.263947270264272,
+        "adjustedInflationIndex": 479.76526161275683,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 382.9874247987861
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 564.8668183544365
+        },
+        "elementDerivations": {}
+      },
+      "43": {
+        "source_id": 209.38012843013135,
+        "source_name": "Public and other transportation CPI",
+        "inflationIndex": 88.18599723460017,
+        "relativeImportance": 0.5535296199027572,
+        "adjustedInflationIndex": 46.7544423444316,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 238.2566467817655
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 229.26751627192158
+        },
+        "elementDerivations": {}
+      },
+      "44": {
+        "source_id": 198.94036886469033,
+        "source_name": "Natural gas EIA",
+        "inflationIndex": 205.38641807286234,
+        "relativeImportance": 0.4641935949469064,
+        "adjustedInflationIndex": 89.62991295178836,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 10.346372388153602
+        },
+        "latest": {
+          "dateTarget": "2021-08-01",
+          "dateFound": "2021-08-01",
+          "value": 21.6934381421024
+        },
+        "elementDerivations": {}
+      },
+      "45": {
+        "source_id": 199.43561767770825,
+        "source_name": "Natural gas CPI",
+        "inflationIndex": 110.28755998675732,
+        "relativeImportance": 0.4626949258994869,
+        "adjustedInflationIndex": 47.350181111314946,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 204.0250260084943
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 221.74326602572594
+        },
+        "elementDerivations": {}
+      },
+      "46": {
+        "source_id": 201.8727632525329,
+        "source_name": "Electricity EIA",
+        "inflationIndex": 131.2533342608993,
+        "relativeImportance": 1.6434972634778215,
+        "adjustedInflationIndex": 214.25382258093754,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 10.94903488459522
+        },
+        "latest": {
+          "dateTarget": "2021-08-01",
+          "dateFound": "2021-08-01",
+          "value": 14.410103207762276
+        },
+        "elementDerivations": {}
+      },
+      "47": {
+        "source_id": 202.5359233498059,
+        "source_name": "Electricity CPI",
+        "inflationIndex": 127.96540814201921,
+        "relativeImportance": 1.5847515646875436,
+        "adjustedInflationIndex": 206.48342324132082,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 190.92798595080052
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 225.3328148448816
+        },
+        "elementDerivations": {}
+      },
+      "48": {
+        "source_id": 216.3459805569772,
+        "source_name": "Fuel oil and other fuels CPI",
+        "inflationIndex": 120.0710611139208,
+        "relativeImportance": 0.23229378434121753,
+        "adjustedInflationIndex": 27.105032104665824,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 289.9710241677959
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 335.4831865418784
+        },
+        "elementDerivations": {}
+      },
+      "49": {
+        "source_id": 201.61320148451995,
+        "source_name": "Water and other public services CPI",
+        "inflationIndex": 158.82264215028954,
+        "relativeImportance": 1.4409970533031888,
+        "adjustedInflationIndex": 238.8018682179568,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 160.24721317815207
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 262.5951766614593
+        },
+        "elementDerivations": {}
+      },
+      "50": {
+        "source_id": 219.37531854027478,
+        "source_name": "Medical care services CPI 324",
+        "inflationIndex": 148.012015100013,
+        "relativeImportance": 5.778022924230823,
+        "adjustedInflationIndex": 856.673233198206,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 392.0557732294277
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 601.5385280705548
+        },
+        "elementDerivations": {}
+      },
+      "51": {
+        "source_id": 203.37289224754116,
+        "source_name": "Medical care services CPI 324",
+        "inflationIndex": 138.52396163917155,
+        "relativeImportance": 1.3723765806365693,
+        "adjustedInflationIndex": 207.54666322442182,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 416.5949922707513
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 582.6712671990676
+        },
+        "elementDerivations": {}
+      },
+      "52": {
+        "source_id": 212.45626429097942,
+        "source_name": "Drugs CPI",
+        "inflationIndex": 123.43043782099528,
+        "relativeImportance": 0.7580292658436463,
+        "adjustedInflationIndex": 97.63426043753792,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 105.67566489487587
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 120.65304537795907
+        },
+        "elementDerivations": {}
+      },
+      "53": {
+        "source_id": 214.52142007743376,
+        "source_name": "Medical supplies CPI",
+        "inflationIndex": 95.22459857683273,
+        "relativeImportance": 0.28886958068392293,
+        "adjustedInflationIndex": 28.40849870563298,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 99.35050637708287
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 96.88477858331039
+        },
+        "elementDerivations": {}
+      },
+      "54": {
+        "source_id": 216.8002704261437,
+        "source_name": "Personal services CPI",
+        "inflationIndex": 139.04027746553353,
+        "relativeImportance": 0.5154782805986192,
+        "adjustedInflationIndex": 70.04222369372259,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 150.46478610891273
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 197.73927442031686
+        },
+        "elementDerivations": {}
+      },
+      "55": {
+        "source_id": 207.6933229552992,
+        "source_name": "Other household expenses CPI 3232",
+        "inflationIndex": 139.84806588451642,
+        "relativeImportance": 0.8960039412063331,
+        "adjustedInflationIndex": 122.12244434809644,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 152.12604976955245
+        },
+        "latest": {
+          "dateTarget": "2020-11-01",
+          "dateFound": "2020-09-01",
+          "value": 214.5803529471755
+        },
+        "elementDerivations": {}
+      },
+      "56": {
+        "source_id": 221.54611903919044,
+        "source_name": "Other household expenses CPI 3233",
+        "inflationIndex": 158.16812057276374,
+        "relativeImportance": 0.2887648185953719,
+        "adjustedInflationIndex": 46.9178073049572,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 124.09640169449378
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 189.90540868492064
+        },
+        "elementDerivations": {}
+      },
+      "57": {
+        "source_id": 207.93155499207873,
+        "source_name": "Other household expenses CPI 3234",
+        "inflationIndex": 162.83344732452676,
+        "relativeImportance": 0.5464658149141315,
+        "adjustedInflationIndex": 89.04800979684676,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 180.176131650712
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-05-01",
+          "value": 286.956817024573
+        },
+        "elementDerivations": {}
+      },
+      "58": {
+        "source_id": 225.11820719340128,
+        "source_name": "Laundry and cleaning supplies CPI 3116",
+        "inflationIndex": 109.23495523830081,
+        "relativeImportance": 0.2572624381802874,
+        "adjustedInflationIndex": 28.649633266388033,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 178.9164017054443
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 210.40925650233444
+        },
+        "elementDerivations": {}
+      },
+      "59": {
+        "source_id": 226.10836325146195,
+        "source_name": "Laundry and cleaning supplies CPI 3116",
+        "inflationIndex": 106.54503451265452,
+        "relativeImportance": 0.8214001954580442,
+        "adjustedInflationIndex": 87.72932971450791,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 176.27778380567278
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 194.8107136667918
+        },
+        "elementDerivations": {}
+      },
+      "60": {
+        "source_id": 221.62882777766825,
+        "source_name": "Postage and stationery CPI",
+        "inflationIndex": 144.52690261953256,
+        "relativeImportance": 0.19288403741541066,
+        "adjustedInflationIndex": 31.34167441939728,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 149.65114620404088
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 222.21304484424255
+        },
+        "elementDerivations": {}
+      },
+      "61": {
+        "source_id": 223.15879719963135,
+        "source_name": "Alcoholic beverages CPI",
+        "inflationIndex": 119.99194630636758,
+        "relativeImportance": 0.5677660473284126,
+        "adjustedInflationIndex": 68.1261715986916,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 212.19818986083365
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 254.3843575857463
+        },
+        "elementDerivations": {}
+      },
+      "62": {
+        "source_id": 223.72571825913946,
+        "source_name": "Alcoholic beverages NielsenIQ",
+        "inflationIndex": 117.70225419686093,
+        "relativeImportance": 0.584820251127988,
+        "adjustedInflationIndex": 65.71099638158397,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 227.53264441950947
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 250.7114583812846
+        },
+        "elementDerivations": {}
+      },
+      "63": {
+        "source_id": 211.44548610347888,
+        "source_name": "Tobacco Products and Smoking Supplies CPI",
+        "inflationIndex": 155.5701364386411,
+        "relativeImportance": 0.3601625309382253,
+        "adjustedInflationIndex": 59.532853894714854,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 799.0707988884698
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 1242.0540916421528
+        },
+        "elementDerivations": {}
+      },
+      "64": {
+        "source_id": 223.57224067771944,
+        "source_name": "Tobacco Products and Smoking Supplies NielsenIQ",
+        "inflationIndex": 168.33321422019716,
+        "relativeImportance": 0.3836585865955284,
+        "adjustedInflationIndex": 59.992242820520374,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 817.7369700918368
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 1243.2452887677982
+        },
+        "elementDerivations": {}
+      },
+      "65": {
+        "source_id": 217.95561676396918,
+        "source_name": "Men, 16 and over CPI",
+        "inflationIndex": 106.39488976476505,
+        "relativeImportance": 0.6574839005993497,
+        "adjustedInflationIndex": 67.63661238595218,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 118.82626275921461
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 121.66007803342883
+        },
+        "elementDerivations": {}
+      },
+      "66": {
+        "source_id": 225.24853017461734,
+        "source_name": "Boys, 2 to 15 CPI",
+        "inflationIndex": 116.05161618123148,
+        "relativeImportance": 0.22715106276413277,
+        "adjustedInflationIndex": 26.18427855809373,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 86.36328108762837
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 106.20744467657016
+        },
+        "elementDerivations": {}
+      },
+      "67": {
+        "source_id": 214.7967543512145,
+        "source_name": "Women, 16 and over CPI",
+        "inflationIndex": 100.07518753515738,
+        "relativeImportance": 1.1648696677428345,
+        "adjustedInflationIndex": 119.4802695315263,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 108.89151422996247
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 102.64719286746327
+        },
+        "elementDerivations": {}
+      },
+      "68": {
+        "source_id": 229.60453044551878,
+        "source_name": "Girls, 2 to 15 CPI",
+        "inflationIndex": 99.83947002557579,
+        "relativeImportance": 0.23915844112696447,
+        "adjustedInflationIndex": 23.509787110330514,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 99.36444411969592
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 93.01872528124248
+        },
+        "elementDerivations": {}
+      },
+      "69": {
+        "source_id": 231.90130034297022,
+        "source_name": "Children under 2 CPI",
+        "inflationIndex": 105.96165169264039,
+        "relativeImportance": 0.1871280947923477,
+        "adjustedInflationIndex": 19.346681997776482,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 107.86235325200704
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 120.58152806668589
+        },
+        "elementDerivations": {}
+      },
+      "70": {
+        "source_id": 229.4137536475507,
+        "source_name": "Footwear CPI",
+        "inflationIndex": 106.49682944762054,
+        "relativeImportance": 0.8117742729015178,
+        "adjustedInflationIndex": 89.39931838649758,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 133.00968527554062
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 134.28686947074405
+        },
+        "elementDerivations": {}
+      },
+      "71": {
+        "source_id": 239.95457333612416,
+        "source_name": "Other apparel products and services CPI",
+        "inflationIndex": 122.85806217838584,
+        "relativeImportance": 0.4598470442506339,
+        "adjustedInflationIndex": 59.894888578493166,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 154.20453997936244
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 175.8118626004351
+        },
+        "elementDerivations": {}
+      },
+      "72": {
+        "source_id": 237.73213709571647,
+        "source_name": "Residential phone service, VOIP, and phone cards CPI",
+        "inflationIndex": 139.61437448365132,
+        "relativeImportance": 0.40384049228023866,
+        "adjustedInflationIndex": 54.29157929951963,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 104.69803809234075
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 133.5829044497221
+        },
+        "elementDerivations": {}
+      },
+      "73": {
+        "source_id": 237.53874014884747,
+        "source_name": "Cellular phone service CPI",
+        "inflationIndex": 78.60777723631344,
+        "relativeImportance": 2.8104748765143577,
+        "adjustedInflationIndex": 209.79460154566777,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 61.103082216271495
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 45.91718451577071
+        },
+        "elementDerivations": {}
+      },
+      "74": {
+        "source_id": 225.5504583315974,
+        "source_name": "Reading CPI",
+        "inflationIndex": 130.5562467872701,
+        "relativeImportance": 0.18789170256997398,
+        "adjustedInflationIndex": 27.083996855614583,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 513.8332408568199
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 661.824008876131
+        },
+        "elementDerivations": {}
+      },
+      "75": {
+        "source_id": 223.4688684957292,
+        "source_name": "Education CPI 3271",
+        "inflationIndex": 138.88278730223803,
+        "relativeImportance": 1.650888079184066,
+        "adjustedInflationIndex": 221.93887903642974,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 537.5510451891977
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 808.9485156819843
+        },
+        "elementDerivations": {}
+      },
+      "76": {
+        "source_id": 224.60877085907185,
+        "source_name": "Education CPI 3274",
+        "inflationIndex": 105.60373761975008,
+        "relativeImportance": 0.5144081864961199,
+        "adjustedInflationIndex": 54.15796264041266,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 72.5913208058236
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 82.347214405881
+        },
+        "elementDerivations": {}
+      },
+      "77": {
+        "source_id": 231.6778558066525,
+        "source_name": "Fees and admissions CPI",
+        "inflationIndex": 126.35118149335544,
+        "relativeImportance": 0.8164000099700923,
+        "adjustedInflationIndex": 103.78656620730672,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 137.1559583195325
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 187.34207545456664
+        },
+        "elementDerivations": {}
+      },
+      "78": {
+        "source_id": 237.0491767779327,
+        "source_name": "Audio and visual equipment and services CPI 3162",
+        "inflationIndex": 47.10300326362657,
+        "relativeImportance": 0.4266906202037667,
+        "adjustedInflationIndex": 19.631160337080022,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.74276482826698
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 50.87861658172434
+        },
+        "elementDerivations": {}
+      },
+      "79": {
+        "source_id": 225.440289551201,
+        "source_name": "Audio and visual equipment and services CPI 3151",
+        "inflationIndex": 39.46881364247235,
+        "relativeImportance": 0.29161496869102366,
+        "adjustedInflationIndex": 11.345144382330632,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 94.71910395669977
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 36.996064237692224
+        },
+        "elementDerivations": {}
+      },
+      "80": {
+        "source_id": 226.4514595299758,
+        "source_name": "Audio and visual equipment and services CPI 3261",
+        "inflationIndex": 139.58786334779262,
+        "relativeImportance": 1.3463853125468157,
+        "adjustedInflationIndex": 185.08829832828027,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 100.20525311813199
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 142.37029395189015
+        },
+        "elementDerivations": {}
+      },
+      "81": {
+        "source_id": 227.60349139627326,
+        "source_name": "Pets CPI 3152",
+        "inflationIndex": 107.91417119886702,
+        "relativeImportance": 0.7318250155277698,
+        "adjustedInflationIndex": 74.15838808259244,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 187.575833909611
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 198.02407202964775
+        },
+        "elementDerivations": {}
+      },
+      "82": {
+        "source_id": 246.8424938119691,
+        "source_name": "Pets CPI 3262",
+        "inflationIndex": 152.51854512778067,
+        "relativeImportance": 0.6461595213099158,
+        "adjustedInflationIndex": 91.84164965332656,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 186.68694138155513
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 282.5523231213315
+        },
+        "elementDerivations": {}
+      },
+      "83": {
+        "source_id": 236.54924225588536,
+        "source_name": "Toys, hobbies, and playground equipment CPI",
+        "inflationIndex": 56.950787741708936,
+        "relativeImportance": 0.32100934254073815,
+        "adjustedInflationIndex": 19.412235063930936,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 58.274461026408495
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 31.743200020897458
+        },
+        "elementDerivations": {}
+      },
+      "84": {
+        "source_id": 246.9337329137762,
+        "source_name": "Personal Care products and services CPI 3183",
+        "inflationIndex": 88.21749098875804,
+        "relativeImportance": 0.2525097129151858,
+        "adjustedInflationIndex": 22.07477587020316,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 86.25614620579145
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 76.71395328652062
+        },
+        "elementDerivations": {}
+      },
+      "85": {
+        "source_id": 232.99345459994277,
+        "source_name": "Personal Care products and services CPI 3182",
+        "inflationIndex": 102.86016526619471,
+        "relativeImportance": 0.8356725938588829,
+        "adjustedInflationIndex": 82.30028964667203,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 157.1176661057618
+        },
+        "latest": {
+          "dateTarget": "2020-06-01",
+          "dateFound": "2020-06-01",
+          "value": 160.18616324809977
+        },
+        "elementDerivations": {}
+      },
+      "86": {
+        "source_id": 246.17876424415866,
+        "source_name": "Personal Care products and services CPI 328",
+        "inflationIndex": 128.7579593629688,
+        "relativeImportance": 2.095072043187586,
+        "adjustedInflationIndex": 273.5722410230463,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 100.65338035305881
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 128.4504379540035
+        },
+        "elementDerivations": {}
+      },
+      "87": {
+        "source_id": 245.79325428553759,
+        "source_name": "Household textiles CPI 31112",
+        "inflationIndex": 92.36405689905702,
+        "relativeImportance": 0.052603175215392706,
+        "adjustedInflationIndex": 4.584401743512,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 80.57102896514245
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 69.74924816012063
+        },
+        "elementDerivations": {}
+      },
+      "88": {
+        "source_id": 251.36977291488662,
+        "source_name": "Household textiles CPI 31113",
+        "inflationIndex": 71.17703158442276,
+        "relativeImportance": 0.12903576115343401,
+        "adjustedInflationIndex": 9.03886835623096,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 65.57497667192278
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 44.523303208824146
+        },
+        "elementDerivations": {}
+      },
+      "89": {
+        "source_id": 255.22479915049178,
+        "source_name": "Furniture CPI 3112",
+        "inflationIndex": 109.15779998988684,
+        "relativeImportance": 0.8056052150200891,
+        "adjustedInflationIndex": 89.92560154146919,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 126.44006111506273
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 134.64205720644782
+        },
+        "elementDerivations": {}
+      },
+      "90": {
+        "source_id": 255.26142677803304,
+        "source_name": "Floor coverings CPI 31111",
+        "inflationIndex": 97.60798791232492,
+        "relativeImportance": 0.045907458600621905,
+        "adjustedInflationIndex": 4.632068029917449,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 120.09389716162539
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 117.909364884604
+        },
+        "elementDerivations": {}
+      },
+      "91": {
+        "source_id": 247.519350587632,
+        "source_name": "Major appliances CPI 31131",
+        "inflationIndex": 98.23631049667271,
+        "relativeImportance": 0.5555456021590172,
+        "adjustedInflationIndex": 52.19829442290761,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 95.51700577902008
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 101.9875562517165
+        },
+        "elementDerivations": {}
+      },
+      "92": {
+        "source_id": 240.25733403737996,
+        "source_name": "Small appliances, miscellaneous housewares CPI 31132",
+        "inflationIndex": 101.61356318477885,
+        "relativeImportance": 0.19852194868614859,
+        "adjustedInflationIndex": 20.951305482552506,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 74.60863408124155
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 69.50261709468599
+        },
+        "elementDerivations": {}
+      },
+      "93": {
+        "source_id": 245.77357867406744,
+        "source_name": "Miscellaneous household equipment CPI 3115",
+        "inflationIndex": 105.01742204712181,
+        "relativeImportance": 1.1655602409806185,
+        "adjustedInflationIndex": 126.2764629059643,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 91.86972344469669
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 97.73408844867585
+        },
+        "elementDerivations": {}
+      },
+      "94": {
+        "source_id": 240.3794339514469,
+        "source_name": "Miscellaneous household equipment CPI 3114",
+        "inflationIndex": 71.14255221650973,
+        "relativeImportance": 0.7003639188386042,
+        "adjustedInflationIndex": 48.49074260640791,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 69.85520533159934
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 52.01289484815859
+        },
+        "elementDerivations": {}
+      },
+      "95": {
+        "source_id": 243.45145483809787,
+        "source_name": "Beverages CPI",
+        "inflationIndex": 112.06943927458731,
+        "relativeImportance": 0.2971112195973857,
+        "adjustedInflationIndex": 33.025362170953265,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 163.89562031208945
+        },
+        "latest": {
+          "dateTarget": "2021-10-01",
+          "dateFound": "2021-10-01",
+          "value": 191.96096160409633
+        },
+        "elementDerivations": {}
+      },
+      "96": {
+        "source_id": 261.6274066220964,
+        "source_name": "Beverages NielsenIQ",
+        "inflationIndex": 116.78687411209566,
+        "relativeImportance": 0.5812949912645999,
+        "adjustedInflationIndex": 67.41359153046089,
+        "earliest": {
+          "dateTarget": "2010-01-01",
+          "dateFound": "2010-01-01",
+          "value": 169.80069952811485
+        },
+        "latest": {
+          "dateTarget": "2021-11-05",
+          "dateFound": "2021-10-30",
+          "value": 198.32578261344563
+        },
+        "elementDerivations": {}
+      }
+    }
+  }
+}
