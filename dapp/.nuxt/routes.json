@@ -1,0 +1,30 @@
+[
+  {
+    "name": "myassets",
+    "path": "/myassets",
+    "component": "C:\\\\Users\\\\wilkn\\\\Desktop\\\\HACKATHON PROJECTS\\\\chainlink\\\\CombatHousingInflation\\\\dapp\\\\pages\\\\myassets.vue",
+    "chunkName": "pages/myassets",
+    "_name": "_11e07e9a"
+  },
+  {
+    "name": "rent",
+    "path": "/rent",
+    "component": "C:\\\\Users\\\\wilkn\\\\Desktop\\\\HACKATHON PROJECTS\\\\chainlink\\\\CombatHousingInflation\\\\dapp\\\\pages\\\\rent.vue",
+    "chunkName": "pages/rent",
+    "_name": "_dd4ce686"
+  },
+  {
+    "name": "sell",
+    "path": "/sell",
+    "component": "C:\\\\Users\\\\wilkn\\\\Desktop\\\\HACKATHON PROJECTS\\\\chainlink\\\\CombatHousingInflation\\\\dapp\\\\pages\\\\sell.vue",
+    "chunkName": "pages/sell",
+    "_name": "_153f6754"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\wilkn\\\\Desktop\\\\HACKATHON PROJECTS\\\\chainlink\\\\CombatHousingInflation\\\\dapp\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_38946704"
+  }
+]

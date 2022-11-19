@@ -41,7 +41,7 @@
                       : '?'
                   }}
                 </button>
-                <button @click="alert(1)" class="form-control btn btn-dark m-2">
+                <button @click="newWindow(a.metadataURI)" class="form-control btn btn-dark m-2">
                   IPFS DATA
                 </button>
               </div>
@@ -78,6 +78,9 @@ export default {
     await this.getRentAssets()
   },
   methods: {
+    newWindow(url) {
+      window.open(url, '_blank')
+    },
     convertSecToLocalTime(time_in_seconds) {
       var date = new Date(time_in_seconds * 1000)
       return date.toLocaleString()

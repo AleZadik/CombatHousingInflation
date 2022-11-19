@@ -117,8 +117,7 @@ contract HouseInflation {
         );
         require(estate.status == 0, "Estate is already listed");
         if (_followInflation) {
-            // inflation is 8% per year
-            estate.currentPrice = (estate.initialPrice * 108) / 100;
+            estate.currentPrice = (_price * 107121) / 100000;
         } else {
             estate.currentPrice = _price;
         }

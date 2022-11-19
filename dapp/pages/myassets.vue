@@ -1,37 +1,16 @@
 <template>
   <div>
-    <div class="creation-container" hidden>
-      <h1>Create Asset:</h1>
-      <!-- name, URI, price, location -->
-      <input
-        type="text"
-        class="form-control"
-        v-model="asset.name"
-        placeholder="Name"
-      />
-      <input
-        type="text"
-        class="form-control"
-        v-model="asset.price"
-        placeholder="Price"
-      />
-      <input
-        type="text"
-        class="form-control"
-        v-model="asset.metadataURI"
-        placeholder="URI"
-      />
-      <input
-        type="text"
-        class="form-control"
-        v-model="asset.location"
-        placeholder="Location"
-      />
-      <button @click="createAsset()">Create Asset</button>
-    </div>
+    <AddModal :show="show" @close="show = false"></AddModal>
     <div class="assets-container">
       <div class="content">
-        <h1>My Assets:</h1>
+        <h1>
+          My Assets:
+          <button class="btn btn-primary" @click="show = true">
+            <i class="fas fa-plus"></i>
+          </button>
+        </h1>
+        <!-- add green circle plus icon that onclick show = true -->
+
         <!-- <button @click="getAssets()" class="form-control">My Assets:</button> -->
         <div v-if="assets" class="component row mt-2">
           <div
@@ -40,16 +19,16 @@
             v-for="a in assets"
           >
             <img
-              src="https://i.pinimg.com/originals/66/d9/f5/66d9f5afdc5337d3f9eac362b970c426.jpg"
+              :src="a.metadataURI + '/image'"
               class="card-img-top"
             />
             <div class="card-body" style="text-align: center;">
               <h5 style="color: black !important;">{{ a.name }}</h5>
               <p style="color: black !important;">
-                Initial Price: {{ a.initialPrice }} ETH
+                Initial Price: {{ weiToETH(a.initialPrice) }} ETH
               </p>
               <p style="color: black !important;">
-                Inflation Price: {{ a.currentPrice }} ETH
+                Inflation Price: {{ weiToETH(a.currentPrice) }} ETH
               </p>
               <div class="action-btns">
                 <!-- list for sale and list for rent -->
@@ -92,7 +71,8 @@
                 >
                   <span>ENDS: {{ convertSecToLocalTime(a.rentEnds) }}</span>
                 </button>
-                <button @click="alert(1)" class="form-control btn btn-dark m-2">
+                <!-- open link -->
+                <button @click="newWindow(a.metadataURI)" class="form-control btn btn-dark m-2">
                   IPFS DATA
                 </button>
               </div>
@@ -118,6 +98,8 @@
 </template>
 
 <script>
+import AddModal from '../components/addModal.vue'
+
 export default {
   name: 'myassets',
   data() {
@@ -133,15 +115,22 @@ export default {
       },
       assets: null,
       account: null,
+      show: false,
     }
   },
-  components: {},
+  components: { AddModal },
   async mounted() {
     // get account from metamask
     this.account = window.ethereum.selectedAddress
     await this.getAssets()
   },
   methods: {
+    newWindow(url) {
+      window.open(url, '_blank')
+    },
+    weiToETH(wei) {
+      return window.ethers.utils.formatEther(wei);
+    },
     async listForSale(id) {
       try {
         let price = prompt(
@@ -172,7 +161,7 @@ export default {
       } catch (e) {
         console.log(e)
         // refresh the page
-        window.location.href = "/";
+        window.location.href = '/'
       }
     },
     async listForRent(id) {
@@ -191,27 +180,12 @@ export default {
         await window.contract.listForRent(id, price, duration)
       } catch (e) {
         console.log(e)
-        window.location.href = "/";
+        window.location.href = '/'
       }
     },
     convertSecToLocalTime(time_in_seconds) {
       var date = new Date(time_in_seconds * 1000)
       return date.toLocaleString()
-    },
-    async createAsset() {
-      try {
-        // call contract's function createEstate(string,uint256,string,string)
-        const tx = await window.contract.createEstate(
-          this.asset.name,
-          this.asset.price,
-          this.asset.location,
-          this.asset.metadataURI,
-        )
-        console.log(tx)
-      } catch (e) {
-        console.log(e)
-        window.location.href = "/";
-      }
     },
     async getAssets() {
       try {
@@ -226,7 +200,7 @@ export default {
         }
       } catch (e) {
         console.log(e)
-        window.location.href = "/";
+        window.location.href = '/'
       }
     },
   },

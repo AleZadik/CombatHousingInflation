@@ -1,5 +1,8 @@
 <template>
   <div>
+    <LoadingOverlay
+      :show="loading"
+      ></LoadingOverlay>
     <navbar></navbar>
     <nuxt />
   </div>
@@ -7,9 +10,16 @@
 
 <script>
 import Navbar from '~/components/Navbar.vue'
+import LoadingOverlay from '../components/LoadingOverlay.vue';
 export default {
   components: {
-    Navbar
+    Navbar,
+    LoadingOverlay,
+},
+  computed: {
+    loading() {
+      return this.$store.state.loading;
+    },
   },
 }
 </script>

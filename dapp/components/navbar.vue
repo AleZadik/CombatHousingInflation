@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3>Overall Inflation Rate: {{inflation}}</h3>
     <button @click="connectWallet()">Connect Wallet</button>
     <button @click="getBalance()">Get Balance</button>
     <NuxtLink to="/sell" :class="active==='sell' ? 'active' : ''"><button>Sell</button></NuxtLink>
@@ -16,10 +17,12 @@ export default {
         balance: null,
         contract: null,
         active: null,
+        inflation: null,
     }
   },
   async mounted() {
     await this.connectWallet();
+    await this.getInflation();
   },
   components: {},
   methods: {
@@ -766,13 +769,20 @@ export default {
         },
       ]
       this.contract = new ethers.Contract(
-        '0x6Cb983756309EF5f0368D068150F10dD1BD77145',
+        // '0x6Cb983756309EF5f0368D068150F10dD1BD77145',
+        '0x0A8F4D0b07E93F5F52611a912263Aa33833Ae666',
         HousingInflationABI,
         signer,
       )
       console.log(this.contract);
       window.contract = this.contract;
     },
+
+    async getInflation(){
+      this.inflation = await this.contract.yoyInflation();
+      this.inflation = this.inflation.substring(0, 7);
+      console.log(this.inflation);
+    }
   },
 }
 </script>

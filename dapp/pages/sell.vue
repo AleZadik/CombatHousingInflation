@@ -22,7 +22,7 @@
                 <!-- list for sale and list for rent -->
                 <button
                   v-if="a.status == '1'"
-                  @click="purchase(a.id)"
+                  @click="purchase(a.id, a.currentPrice)"
                   class="form-control btn btn-dark m-2"
                 >
                   Purchase Now
@@ -30,7 +30,7 @@
                 <button v-else>
                   {{ a.status == 2 ? 'SOLD' : a.status == 4 ? 'RENTED' : '?' }}
                 </button>
-                <button @click="alert(1)" class="form-control btn btn-dark m-2">
+                <button @click="newWindows(a.metadataURI)" class="form-control btn btn-dark m-2">
                   IPFS DATA
                 </button>
               </div>
@@ -67,6 +67,9 @@ export default {
     await this.getSaleAssets()
   },
   methods: {
+    newWindow(url) {
+      window.open(url, '_blank')
+    },
     convertSecToLocalTime(time_in_seconds) {
       var date = new Date(time_in_seconds * 1000)
       return date.toLocaleString()
@@ -92,9 +95,9 @@ export default {
     weiToETH(wei) {
       return window.ethers.utils.formatEther(wei)
     },
-    purchase(id) {
+    purchase(id, cp) {
       window.contract
-        .purchase(id, { value: this.assets[id].currentPrice })
+        .purchase(id, { value: cp })
         .then((res) => {
           this.$bvToast.toast('Asset purchased succesfully!', {
             title: 'Success',
