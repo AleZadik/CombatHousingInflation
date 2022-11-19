@@ -49,7 +49,7 @@
                 Initial Price: {{ a.initialPrice }} ETH
               </p>
               <p style="color: black !important;">
-                Current Price: {{ a.currentPrice }} ETH
+                Inflation Price: {{ a.currentPrice }} ETH
               </p>
               <div class="action-btns">
                 <!-- list for sale and list for rent -->
@@ -172,7 +172,7 @@ export default {
       } catch (e) {
         console.log(e)
         // refresh the page
-        window.location.reload()
+        window.location.href = "/";
       }
     },
     async listForRent(id) {
@@ -191,7 +191,7 @@ export default {
         await window.contract.listForRent(id, price, duration)
       } catch (e) {
         console.log(e)
-        window.location.reload()
+        window.location.href = "/";
       }
     },
     convertSecToLocalTime(time_in_seconds) {
@@ -210,7 +210,7 @@ export default {
         console.log(tx)
       } catch (e) {
         console.log(e)
-        window.location.reload()
+        window.location.href = "/";
       }
     },
     async getAssets() {
@@ -226,7 +226,7 @@ export default {
         }
       } catch (e) {
         console.log(e)
-        window.location.reload()
+        window.location.href = "/";
       }
     },
   },
